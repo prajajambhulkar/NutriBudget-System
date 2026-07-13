@@ -1,0 +1,501 @@
+Product_ID,Product_Name,Category,Brand,Quantity,Unit,Price,Calories,Protein,Carbohydrates,Fat,Fiber,Sugar,Sodium,Cholesterol,Health_Score,Nutrition_Grade,Healthy,Alternative_Product,Alternative_Price,Monthly_Consumption,Monthly_Cost,Diabetes_Friendly,Heart_Friendly,Weight_Loss_Friendly,High_Protein,Organic,Customer_Rating
+PRD-0001,Energy Drink,Beverages,Britannia,100,L,218,452,4.4,50.6,2.1,1.4,30,614,29,25,D,No,Green Tea,196,5,1090,No,No,No,No,Yes,3.5
+PRD-0002,Flaked Rice,Rice,Fortune,1000,kg,78,98,24.6,37.7,30.1,1.4,39,1099,72,77,B,Yes,Flaked Rice,70,3,234,No,No,Yes,No,No,4.9
+PRD-0003,Potato,Vegetables,B organic,1000,g,375,379,21.0,17.1,13.7,0.4,39,766,3,74,B,Yes,Spinach,337,5,1875,No,No,No,No,No,4.2
+PRD-0004,Frozen Pizza,Instant Foods,Britannia,250,kg,247,511,13.5,72.3,29.6,1.5,21,669,52,25,D,No,Frozen Pizza,222,4,988,No,No,No,No,No,4.3
+PRD-0005,Masoor Dal,Pulses,Britannia,1000,kg,374,48,20.6,54.5,25.5,9.3,7,138,4,83,A,Yes,Masoor Dal,336,7,2618,Yes,Yes,Yes,Yes,No,4.8
+PRD-0006,Rajma,Pulses,Fortune,1000,L,62,101,7.6,44.3,13.5,11.7,7,46,2,86,A,Yes,Masoor Dal,55,7,434,Yes,Yes,Yes,Yes,No,4.6
+PRD-0007,Cola,Beverages,B organic,100,L,236,439,14.5,53.7,5.0,1.2,24,1090,14,19,D,No,Green Tea,212,7,1652,No,No,No,Yes,Yes,3.3
+PRD-0008,Cheese,Dairy,MTR,250,ml,150,394,13.9,61.5,31.4,0.6,17,1195,0,52,C,No,Butter,135,2,300,No,No,No,No,No,4.7
+PRD-0009,Toor Dal,Pulses,Haldirams,1000,L,227,176,23.6,27.6,18.2,8.4,4,60,61,88,A,Yes,Masoor Dal,204,3,681,Yes,Yes,Yes,Yes,No,3.7
+PRD-0010,Onion,Vegetables,Aashirvaad,500,g,130,120,9.3,49.4,23.9,1.1,13,1041,31,68,B,No,Spinach,117,1,130,No,No,Yes,No,No,3.3
+PRD-0011,Walnuts,Dry Fruits,MTR,250,ml,1200,333,10.6,62.2,28.0,1.8,7,78,58,85,A,Yes,Dates,1080,7,8400,Yes,Yes,No,No,Yes,4.3
+PRD-0012,Popcorn,Snacks,Tata Simply Better,1000,L,176,445,13.4,63.6,23.7,1.5,18,888,49,63,C,No,Cookies,158,4,704,No,No,No,Yes,No,3.7
+PRD-0013,White Rice,Rice,Saffola,100,L,89,351,16.2,28.7,12.3,1.5,12,703,2,61,C,No,Flaked Rice,80,1,89,No,No,No,Yes,No,4.8
+PRD-0014,Popcorn,Snacks,Fortune,1000,ml,449,453,23.6,73.2,10.0,0.6,31,653,65,61,C,No,Cookies,404,6,2694,No,No,No,Yes,No,3.6
+PRD-0015,Mango,Fruits,Britannia,500,kg,427,343,16.8,44.8,3.4,0.7,31,903,21,71,B,Yes,Kiwi,384,5,2135,No,No,No,No,No,3.9
+PRD-0016,Noodles,Instant Foods,Saffola,1000,g,306,446,13.0,45.0,26.9,0.1,39,880,43,32,D,No,Frozen Pizza,275,6,1836,No,No,No,Yes,No,4.8
+PRD-0017,Cheese,Dairy,Saffola,500,kg,150,373,24.5,10.3,10.8,0.4,40,896,32,59,C,No,Butter,135,5,750,No,No,No,No,Yes,4.2
+PRD-0018,Pasta,Instant Foods,Amul,500,kg,389,373,8.1,27.6,29.7,0.3,43,1062,47,58,C,No,Frozen Pizza,350,6,2334,No,No,No,No,Yes,4.0
+PRD-0019,Tomato,Vegetables,MTR,100,L,42,352,17.8,60.7,31.2,4.1,3,182,65,93,A+,Yes,Spinach,37,4,168,Yes,Yes,No,No,No,3.8
+PRD-0020,Flaked Rice,Rice,Aashirvaad,500,L,343,381,8.8,63.0,9.6,1.9,17,1182,67,74,B,Yes,Flaked Rice,308,2,686,No,No,No,Yes,Yes,3.9
+PRD-0021,Cheese,Dairy,Tata Simply Better,1000,kg,150,455,11.4,57.1,8.9,0.4,41,1058,61,52,C,No,Butter,135,4,600,No,No,No,Yes,No,3.9
+PRD-0022,Basmati Rice,Rice,Saffola,100,L,268,135,13.4,51.0,15.3,1.5,36,887,66,70,B,Yes,Flaked Rice,241,2,536,No,No,Yes,No,No,4.6
+PRD-0023,Masoor Dal,Pulses,Haldirams,250,L,76,133,20.4,29.2,16.3,7.8,3,153,9,87,A,Yes,Masoor Dal,68,1,76,Yes,Yes,Yes,Yes,No,3.7
+PRD-0024,Basmati Rice,Rice,Britannia,1000,kg,125,364,23.7,65.7,22.3,1.6,15,415,11,72,B,Yes,Flaked Rice,112,1,125,No,No,No,No,No,4.0
+PRD-0025,Curd,Dairy,Britannia,250,kg,35,362,5.7,9.9,3.6,0.2,0,170,34,88,A,Yes,Butter,31,4,140,Yes,Yes,No,No,No,3.9
+PRD-0026,Basmati Rice,Rice,Britannia,1000,g,144,235,20.3,24.7,6.3,1.5,22,812,63,71,B,Yes,Flaked Rice,129,1,144,No,No,No,No,No,3.4
+PRD-0027,Kiwi,Fruits,Nestle,250,g,212,318,13.8,39.8,13.7,3.6,8,108,18,88,A+,Yes,Kiwi,190,5,1060,No,Yes,No,No,Yes,4.8
+PRD-0028,Rajma,Pulses,Fortune,1000,g,368,183,14.3,19.9,33.1,9.4,4,78,38,88,A,Yes,Masoor Dal,331,2,736,Yes,Yes,Yes,No,No,3.3
+PRD-0029,Flaked Rice,Rice,Nestle,250,ml,244,274,15.8,12.1,3.0,1.4,22,1057,41,71,B,Yes,Flaked Rice,219,5,1220,No,No,No,No,No,3.5
+PRD-0030,Muesli,Breakfast,B organic,100,g,394,381,19.1,31.3,3.0,9.3,3,154,53,87,A,Yes,Upma Mix,354,1,394,Yes,Yes,No,Yes,Yes,3.8
+PRD-0031,Butter,Dairy,Britannia,100,kg,115,475,16.6,57.2,20.5,1.9,31,875,62,39,D,No,Butter,103,4,460,No,No,No,No,Yes,4.2
+PRD-0032,Oats,Breakfast,Fortune,500,L,109,252,2.8,16.6,7.7,3.5,4,173,0,96,A+,Yes,Upma Mix,98,6,654,Yes,Yes,No,Yes,No,4.8
+PRD-0033,Toor Dal,Pulses,Haldirams,1000,L,387,195,12.1,29.7,20.5,0.9,4,17,40,89,A,Yes,Masoor Dal,348,4,1548,Yes,Yes,Yes,No,No,3.3
+PRD-0034,Moong Dal,Pulses,Amul,500,L,241,259,14.9,69.3,3.0,10.5,2,143,4,92,A+,Yes,Masoor Dal,216,5,1205,Yes,Yes,No,No,No,4.7
+PRD-0035,Orange,Fruits,Tata Simply Better,100,g,311,256,12.2,34.0,9.6,0.7,5,68,5,85,A,Yes,Kiwi,279,7,2177,Yes,Yes,No,Yes,No,4.5
+PRD-0036,Butter,Dairy,Fortune,100,g,115,402,11.8,14.0,33.4,1.2,21,857,61,44,D,No,Butter,103,5,575,No,No,No,Yes,No,3.3
+PRD-0037,Cashews,Dry Fruits,Tata Simply Better,250,L,900,157,14.5,66.4,14.2,0.3,14,705,46,73,B,Yes,Dates,810,6,5400,No,No,Yes,No,No,4.4
+PRD-0038,Cheese,Dairy,Fortune,500,ml,150,399,9.4,41.0,27.4,0.8,29,1197,50,52,C,No,Butter,135,6,900,No,No,No,Yes,No,4.0
+PRD-0039,Banana,Fruits,Amul,100,ml,369,73,16.2,21.8,2.7,1.5,5,62,54,84,A,Yes,Kiwi,332,5,1845,Yes,Yes,Yes,No,No,4.5
+PRD-0040,Protein Bar,Snacks,Amul,100,ml,310,391,6.4,62.5,12.1,4.2,2,164,21,89,A,Yes,Cookies,279,3,930,Yes,Yes,No,No,Yes,4.0
+PRD-0041,Basmati Rice,Rice,Haldirams,100,kg,107,340,16.1,10.7,30.6,1.8,38,472,60,70,B,Yes,Flaked Rice,96,2,214,No,No,No,No,No,3.4
+PRD-0042,Butter,Dairy,Haldirams,1000,kg,115,396,13.8,55.4,2.3,0.3,33,925,6,41,D,No,Butter,103,7,805,No,No,No,Yes,No,4.5
+PRD-0043,Potato,Vegetables,Saffola,1000,ml,256,54,14.5,63.8,3.2,1.1,36,1030,24,71,B,Yes,Spinach,230,3,768,No,No,Yes,Yes,No,4.4
+PRD-0044,Milk,Dairy,Britannia,1000,g,66,267,14.5,31.5,11.9,10.8,5,43,63,82,A,Yes,Butter,59,7,462,Yes,Yes,No,No,No,5.0
+PRD-0045,Cornflakes,Breakfast,MTR,250,kg,179,547,3.1,61.4,2.0,1.7,17,902,2,54,C,No,Upma Mix,161,5,895,No,No,No,No,No,5.0
+PRD-0046,Pasta,Instant Foods,Aashirvaad,100,ml,249,353,5.1,51.8,32.5,1.1,26,1045,7,59,C,No,Frozen Pizza,224,3,747,No,No,No,No,No,3.6
+PRD-0047,Puffed Rice,Rice,Tata Simply Better,250,ml,241,59,7.9,45.7,5.5,1.0,23,958,2,68,B,No,Flaked Rice,216,1,241,No,No,Yes,No,No,3.4
+PRD-0048,Orange Juice,Beverages,Saffola,100,g,42,433,3.8,38.1,21.3,1.6,12,718,48,59,C,No,Green Tea,37,2,84,No,No,No,Yes,No,3.9
+PRD-0049,Muesli,Breakfast,Aashirvaad,1000,L,447,74,19.8,63.0,26.3,9.6,0,49,34,88,A,Yes,Upma Mix,402,4,1788,Yes,Yes,Yes,No,No,4.4
+PRD-0050,Puffed Rice,Rice,Britannia,500,L,266,128,10.0,37.4,10.6,1.5,29,695,14,74,B,Yes,Flaked Rice,239,2,532,No,No,Yes,No,No,3.9
+PRD-0051,Spinach,Vegetables,Fortune,500,kg,133,78,9.0,14.7,27.8,7.4,2,143,26,100,A+,Yes,Spinach,119,3,399,Yes,Yes,Yes,Yes,Yes,3.8
+PRD-0052,Muesli,Breakfast,Haldirams,100,kg,318,235,19.1,12.2,18.8,4.5,5,75,51,86,A,Yes,Upma Mix,286,6,1908,Yes,Yes,No,No,No,3.5
+PRD-0053,Protein Bar,Snacks,MTR,250,kg,440,154,15.4,62.9,33.6,4.1,2,173,5,83,A,Yes,Cookies,396,7,3080,Yes,Yes,Yes,No,No,4.9
+PRD-0054,Flaked Rice,Rice,MTR,100,L,239,150,1.6,50.6,27.0,0.7,23,755,8,76,B,Yes,Flaked Rice,215,1,239,No,No,Yes,No,No,4.9
+PRD-0055,Noodles,Instant Foods,MTR,250,kg,286,450,23.1,65.9,18.2,1.2,32,745,20,37,D,No,Frozen Pizza,257,6,1716,No,No,No,No,No,3.6
+PRD-0056,Masoor Dal,Pulses,Aashirvaad,250,kg,320,283,9.3,56.6,15.9,2.7,8,99,50,91,A,Yes,Masoor Dal,288,7,2240,No,Yes,No,No,No,3.5
+PRD-0057,Cornflakes,Breakfast,Amul,100,g,314,584,5.3,72.3,5.3,0.8,33,1065,62,54,C,No,Upma Mix,282,7,2198,No,No,No,Yes,No,4.3
+PRD-0058,Cola,Beverages,Tata Simply Better,100,g,240,381,12.3,44.5,2.4,1.6,41,684,46,18,D,No,Green Tea,216,6,1440,No,No,No,No,No,4.1
+PRD-0059,Noodles,Instant Foods,Haldirams,250,kg,414,404,16.5,33.6,1.0,0.3,14,1199,49,34,D,No,Frozen Pizza,372,5,2070,No,No,No,Yes,No,4.2
+PRD-0060,Curd,Dairy,Fortune,100,L,35,288,6.7,12.0,8.6,8.7,4,76,45,91,A,Yes,Butter,31,6,210,Yes,Yes,No,Yes,No,4.4
+PRD-0061,Oats,Breakfast,Fortune,1000,g,359,200,22.0,50.0,24.7,10.9,6,94,68,98,A+,Yes,Upma Mix,323,7,2513,Yes,Yes,No,No,Yes,3.9
+PRD-0062,Energy Drink,Beverages,Saffola,1000,kg,290,515,23.8,58.5,5.0,1.7,41,625,58,21,D,No,Green Tea,261,5,1450,No,No,No,Yes,No,4.0
+PRD-0063,Milk,Dairy,Nestle,250,ml,66,276,21.0,73.9,18.4,2.1,8,112,36,89,A,Yes,Butter,59,2,132,No,Yes,No,No,No,3.4
+PRD-0064,Potato Chips,Snacks,B organic,100,ml,63,514,4.4,23.5,9.4,1.5,36,777,11,36,D,No,Cookies,56,1,63,No,No,No,Yes,No,4.2
+PRD-0065,Banana,Fruits,Tata Simply Better,500,g,219,85,15.5,22.2,13.7,3.5,1,63,35,88,A,Yes,Kiwi,197,2,438,Yes,Yes,Yes,Yes,Yes,4.2
+PRD-0066,Spinach,Vegetables,Amul,100,ml,318,75,12.4,29.1,12.4,5.0,3,90,60,100,A+,Yes,Spinach,286,2,636,Yes,Yes,Yes,Yes,No,3.6
+PRD-0067,Paneer,Dairy,Amul,1000,kg,450,211,8.6,61.5,33.7,1.6,41,501,56,78,B,Yes,Butter,405,4,1800,No,No,No,No,Yes,4.2
+PRD-0068,Walnuts,Dry Fruits,Aashirvaad,1000,g,1200,188,22.7,50.3,24.3,0.6,0,127,25,92,A,Yes,Dates,1080,7,8400,Yes,Yes,Yes,No,No,4.9
+PRD-0069,Orange Juice,Beverages,Saffola,500,g,115,484,5.6,13.1,14.8,1.6,25,734,38,62,C,No,Green Tea,103,2,230,No,No,No,No,No,4.4
+PRD-0070,Walnuts,Dry Fruits,B organic,1000,kg,1200,332,8.6,42.8,27.7,3.8,7,192,32,86,A,Yes,Dates,1080,3,3600,Yes,Yes,No,Yes,No,3.6
+PRD-0071,Cola,Beverages,Amul,1000,L,443,596,20.2,74.9,12.3,1.5,24,540,61,12,D,No,Green Tea,398,3,1329,No,No,No,No,No,4.8
+PRD-0072,Chana Dal,Pulses,Britannia,250,ml,388,104,8.1,21.4,1.6,0.2,0,12,78,92,A,Yes,Masoor Dal,349,4,1552,Yes,Yes,Yes,No,No,4.4
+PRD-0073,Flaked Rice,Rice,Amul,100,kg,409,334,24.8,21.2,33.0,1.3,35,410,73,73,B,Yes,Flaked Rice,368,6,2454,No,No,No,No,No,3.3
+PRD-0074,Brown Rice,Rice,B organic,100,g,291,300,23.3,74.6,6.2,4.8,5,56,49,91,A,Yes,Flaked Rice,261,5,1455,Yes,Yes,No,No,No,4.8
+PRD-0075,Butter,Dairy,MTR,250,g,115,588,3.2,66.4,9.4,0.3,36,728,8,45,D,No,Butter,103,5,575,No,No,No,No,No,3.3
+PRD-0076,Almonds,Dry Fruits,Aashirvaad,1000,kg,850,265,18.4,39.7,2.9,2.6,7,133,76,94,A+,Yes,Dates,765,3,2550,Yes,Yes,No,Yes,No,3.3
+PRD-0077,Paneer,Dairy,Tata Simply Better,250,L,450,79,20.1,51.1,29.8,1.7,38,1148,40,76,B,Yes,Butter,405,2,900,No,No,Yes,No,Yes,4.9
+PRD-0078,Popcorn,Snacks,Haldirams,250,L,217,482,9.0,57.0,5.7,1.6,42,934,77,66,C,No,Cookies,195,7,1519,No,No,No,Yes,Yes,3.5
+PRD-0079,Apple,Fruits,Fortune,1000,ml,389,393,7.8,6.3,15.2,10.1,7,118,27,91,A+,Yes,Kiwi,350,7,2723,Yes,Yes,No,Yes,No,3.4
+PRD-0080,Protein Bar,Snacks,Aashirvaad,100,ml,271,258,12.4,9.1,2.7,10.2,0,21,13,85,A,Yes,Cookies,243,4,1084,Yes,Yes,No,Yes,No,4.5
+PRD-0081,Cheese,Dairy,Fortune,500,ml,150,488,1.0,16.1,16.5,1.9,44,1045,12,57,C,No,Butter,135,5,750,No,No,No,Yes,No,4.7
+PRD-0082,Nachos,Snacks,Britannia,1000,g,51,376,23.6,34.4,22.4,0.8,14,781,56,39,D,No,Cookies,45,3,153,No,No,No,No,No,3.8
+PRD-0083,Pasta,Instant Foods,Amul,500,L,349,374,12.4,72.8,6.6,1.7,35,923,52,58,C,No,Frozen Pizza,314,1,349,No,No,No,No,No,4.2
+PRD-0084,Cola,Beverages,Nestle,250,ml,53,471,15.4,47.5,8.7,1.1,14,957,47,15,D,No,Green Tea,47,4,212,No,No,No,No,Yes,4.2
+PRD-0085,Oats,Breakfast,Saffola,250,ml,101,103,10.4,38.6,21.0,3.5,0,81,44,99,A+,Yes,Upma Mix,90,3,303,Yes,Yes,Yes,Yes,No,4.8
+PRD-0086,Noodles,Instant Foods,Aashirvaad,250,L,70,425,17.9,44.2,0.4,0.7,43,862,1,38,D,No,Frozen Pizza,63,1,70,No,No,No,No,No,3.3
+PRD-0087,Nachos,Snacks,Haldirams,250,kg,132,515,5.8,16.7,3.7,1.3,37,1085,66,41,D,No,Cookies,118,2,264,No,No,No,Yes,No,4.3
+PRD-0088,Chana Dal,Pulses,B organic,500,L,357,387,14.3,46.8,27.5,5.8,3,71,40,91,A,Yes,Masoor Dal,321,2,714,Yes,Yes,No,No,No,4.5
+PRD-0089,Energy Drink,Beverages,MTR,100,L,330,471,21.9,35.4,1.6,0.3,30,966,69,26,D,No,Green Tea,297,3,990,No,No,No,Yes,Yes,5.0
+PRD-0090,Toor Dal,Pulses,Aashirvaad,500,kg,441,282,7.2,37.4,30.4,8.7,2,198,60,84,A,Yes,Masoor Dal,396,2,882,Yes,Yes,No,Yes,No,4.5
+PRD-0091,Protein Bar,Snacks,Haldirams,100,ml,79,135,12.7,66.1,31.5,5.1,8,173,41,89,A,Yes,Cookies,71,1,79,No,Yes,Yes,Yes,Yes,3.8
+PRD-0092,Butter,Dairy,Britannia,1000,L,115,492,15.4,49.3,13.1,1.0,44,1193,36,39,D,No,Butter,103,5,575,No,No,No,Yes,No,3.6
+PRD-0093,Almonds,Dry Fruits,Nestle,100,L,850,270,7.2,51.0,11.4,9.3,5,154,55,93,A+,Yes,Dates,765,2,1700,Yes,Yes,No,No,Yes,3.6
+PRD-0094,Brown Rice,Rice,Nestle,100,g,299,132,7.0,48.2,24.8,2.0,9,85,27,89,A,Yes,Flaked Rice,269,2,598,No,Yes,Yes,No,No,4.4
+PRD-0095,Cornflakes,Breakfast,Aashirvaad,1000,kg,149,405,3.7,23.9,2.1,1.1,39,766,19,54,C,No,Upma Mix,134,4,596,No,No,No,No,No,3.6
+PRD-0096,Upma Mix,Breakfast,Haldirams,1000,g,190,218,12.5,53.0,0.7,0.6,25,411,28,72,B,Yes,Upma Mix,171,1,190,No,No,No,Yes,No,4.1
+PRD-0097,Carrot,Vegetables,Amul,250,L,369,165,17.2,72.9,3.4,8.1,3,89,4,95,A+,Yes,Spinach,332,7,2583,Yes,Yes,Yes,Yes,Yes,4.4
+PRD-0098,Orange Juice,Beverages,MTR,100,g,174,485,6.2,51.1,13.8,1.3,23,744,61,59,C,No,Green Tea,156,2,348,No,No,No,Yes,No,3.3
+PRD-0099,Moong Dal,Pulses,Nestle,500,L,118,112,16.6,58.6,32.4,5.3,4,86,12,96,A+,Yes,Masoor Dal,106,5,590,Yes,Yes,Yes,Yes,No,4.7
+PRD-0100,Almonds,Dry Fruits,Saffola,500,L,850,104,14.2,46.8,19.1,5.3,9,152,10,94,A+,Yes,Dates,765,7,5950,No,Yes,Yes,Yes,No,4.3
+PRD-0101,Toor Dal,Pulses,Saffola,250,L,311,156,14.9,42.4,21.3,9.2,9,162,69,86,A,Yes,Masoor Dal,279,2,622,No,Yes,Yes,Yes,No,4.1
+PRD-0102,Muesli,Breakfast,Fortune,500,L,365,156,23.4,29.6,3.6,5.8,8,45,51,86,A,Yes,Upma Mix,328,7,2555,No,Yes,Yes,Yes,No,4.2
+PRD-0103,Cashews,Dry Fruits,MTR,250,g,900,185,13.5,13.6,30.1,1.6,13,988,30,75,B,Yes,Dates,810,6,5400,No,No,Yes,Yes,Yes,4.2
+PRD-0104,Puffed Rice,Rice,Britannia,100,ml,403,349,3.7,5.2,22.4,1.0,12,571,8,69,B,No,Flaked Rice,362,7,2821,No,No,No,Yes,No,3.5
+PRD-0105,Masoor Dal,Pulses,Amul,1000,kg,181,193,21.4,52.0,28.4,9.2,4,77,73,90,A,Yes,Masoor Dal,162,1,181,Yes,Yes,Yes,No,No,3.5
+PRD-0106,Cheese,Dairy,Saffola,500,kg,150,468,15.6,43.3,8.2,0.8,32,1061,56,52,C,No,Butter,135,1,150,No,No,No,No,No,3.4
+PRD-0107,Oats,Breakfast,Tata Simply Better,500,kg,71,164,9.2,62.3,21.2,4.0,6,178,31,94,A+,Yes,Upma Mix,63,6,426,Yes,Yes,Yes,No,Yes,3.4
+PRD-0108,Mango,Fruits,Tata Simply Better,1000,ml,102,109,17.1,9.9,22.4,0.5,15,1180,71,73,B,Yes,Kiwi,91,1,102,No,No,Yes,Yes,No,3.8
+PRD-0109,Paneer,Dairy,B organic,250,L,450,297,2.4,44.4,33.5,0.4,28,753,30,80,B,Yes,Butter,405,4,1800,No,No,No,Yes,Yes,3.9
+PRD-0110,Rajma,Pulses,B organic,1000,kg,429,175,4.7,74.5,32.5,6.5,3,12,29,85,A,Yes,Masoor Dal,386,4,1716,Yes,Yes,Yes,No,No,3.4
+PRD-0111,Coconut Water,Beverages,MTR,100,kg,301,77,7.3,30.2,3.2,11.2,3,151,72,95,A+,Yes,Green Tea,270,4,1204,Yes,Yes,Yes,No,No,3.7
+PRD-0112,Puffed Rice,Rice,Saffola,1000,ml,340,182,13.0,32.8,18.9,1.3,33,715,29,67,B,No,Flaked Rice,306,6,2040,No,No,Yes,Yes,No,4.7
+PRD-0113,Energy Drink,Beverages,Fortune,250,ml,428,512,24.4,49.9,28.8,0.3,13,529,53,26,D,No,Green Tea,385,5,2140,No,No,No,No,No,3.5
+PRD-0114,Frozen Pizza,Instant Foods,Saffola,250,L,416,518,12.5,40.4,8.2,0.2,17,424,11,27,D,No,Frozen Pizza,374,3,1248,No,No,No,Yes,No,3.8
+PRD-0115,Nachos,Snacks,B organic,500,kg,189,392,2.5,59.7,16.1,0.1,13,459,10,41,D,No,Cookies,170,5,945,No,No,No,Yes,No,3.7
+PRD-0116,Cola,Beverages,Fortune,500,L,128,422,17.6,48.3,22.2,0.5,39,589,51,19,D,No,Green Tea,115,5,640,No,No,No,No,No,4.7
+PRD-0117,Spinach,Vegetables,Aashirvaad,250,kg,220,295,18.6,58.9,0.5,5.0,2,16,20,97,A+,Yes,Spinach,198,6,1320,Yes,Yes,No,No,Yes,4.6
+PRD-0118,Flaked Rice,Rice,Amul,100,g,42,281,2.0,31.0,9.4,1.3,32,1092,20,69,B,No,Flaked Rice,37,5,210,No,No,No,Yes,Yes,4.1
+PRD-0119,Nachos,Snacks,Aashirvaad,250,g,141,431,23.9,14.3,3.7,1.3,40,835,40,39,D,No,Cookies,126,4,564,No,No,No,Yes,No,3.7
+PRD-0120,Basmati Rice,Rice,Britannia,100,kg,306,242,22.3,36.5,30.9,0.2,19,1125,43,77,B,Yes,Flaked Rice,275,4,1224,No,No,No,No,No,3.3
+PRD-0121,Toor Dal,Pulses,MTR,100,L,138,191,9.5,25.8,12.3,9.3,0,142,6,82,A,Yes,Masoor Dal,124,3,414,Yes,Yes,Yes,Yes,No,3.9
+PRD-0122,Oats,Breakfast,Nestle,100,ml,140,376,17.0,5.7,9.0,3.1,7,113,40,97,A+,Yes,Upma Mix,126,4,560,Yes,Yes,No,Yes,No,4.8
+PRD-0123,Flaked Rice,Rice,Amul,500,ml,169,297,9.1,70.0,7.9,0.7,24,1092,58,72,B,Yes,Flaked Rice,152,3,507,No,No,No,No,No,3.5
+PRD-0124,Protein Bar,Snacks,Saffola,500,ml,201,213,20.6,65.3,29.6,11.0,0,129,17,86,A,Yes,Cookies,180,3,603,Yes,Yes,No,Yes,Yes,5.0
+PRD-0125,Raisins,Dry Fruits,Amul,250,g,350,274,17.4,11.4,33.8,1.0,36,933,22,75,B,Yes,Dates,315,6,2100,No,No,No,Yes,No,4.2
+PRD-0126,Orange,Fruits,Nestle,1000,g,48,69,4.8,37.3,0.4,3.0,6,117,4,86,A,Yes,Kiwi,43,7,336,Yes,Yes,Yes,Yes,Yes,3.5
+PRD-0127,Basmati Rice,Rice,Nestle,1000,g,39,341,13.9,41.7,29.7,1.7,38,465,11,78,B,Yes,Flaked Rice,35,5,195,No,No,No,Yes,Yes,4.9
+PRD-0128,Rajma,Pulses,Haldirams,1000,kg,252,109,11.8,55.5,31.0,7.1,7,110,36,87,A,Yes,Masoor Dal,226,7,1764,Yes,Yes,Yes,Yes,Yes,3.5
+PRD-0129,Puffed Rice,Rice,Fortune,1000,g,49,158,14.9,44.3,19.7,1.2,18,915,33,74,B,Yes,Flaked Rice,44,1,49,No,No,Yes,No,No,3.2
+PRD-0130,Milk,Dairy,MTR,1000,kg,66,191,11.6,15.3,11.6,5.2,9,126,17,83,A,Yes,Butter,59,6,396,No,Yes,Yes,No,Yes,4.6
+PRD-0131,Rajma,Pulses,Aashirvaad,500,ml,330,237,18.9,56.8,33.3,2.4,3,157,60,90,A,Yes,Masoor Dal,297,1,330,Yes,Yes,No,Yes,Yes,4.5
+PRD-0132,Frozen Pizza,Instant Foods,Fortune,250,ml,366,458,21.9,63.9,6.6,1.6,30,825,73,29,D,No,Frozen Pizza,329,3,1098,No,No,No,Yes,No,4.3
+PRD-0133,Orange Juice,Beverages,Nestle,500,L,158,449,16.8,72.0,2.5,0.1,17,581,29,60,C,No,Green Tea,142,1,158,No,No,No,No,Yes,3.7
+PRD-0134,Cashews,Dry Fruits,Aashirvaad,1000,g,900,145,12.7,7.4,2.3,1.8,36,604,56,77,B,Yes,Dates,810,7,6300,No,No,Yes,No,No,4.6
+PRD-0135,Pasta,Instant Foods,Saffola,250,ml,232,565,11.1,23.2,25.6,2.0,26,598,68,63,C,No,Frozen Pizza,208,4,928,No,No,No,Yes,Yes,4.2
+PRD-0136,Curd,Dairy,MTR,500,ml,35,200,3.1,52.9,19.1,11.8,1,126,60,92,A,Yes,Butter,31,5,175,Yes,Yes,No,Yes,No,3.3
+PRD-0137,Maggi,Instant Foods,Tata Simply Better,250,g,127,587,4.4,51.5,7.6,0.2,17,1009,15,26,D,No,Frozen Pizza,114,6,762,No,No,No,No,No,4.2
+PRD-0138,Raisins,Dry Fruits,Saffola,1000,ml,350,358,8.9,58.0,18.2,0.4,43,790,78,72,B,Yes,Dates,315,3,1050,No,No,No,Yes,No,3.6
+PRD-0139,Chana Dal,Pulses,Tata Simply Better,250,L,95,287,20.2,31.0,15.9,4.8,2,53,42,84,A,Yes,Masoor Dal,85,1,95,Yes,Yes,No,Yes,No,3.6
+PRD-0140,Puffed Rice,Rice,Nestle,500,kg,193,124,23.0,42.3,5.6,1.4,19,966,11,74,B,Yes,Flaked Rice,173,5,965,No,No,Yes,No,No,3.9
+PRD-0141,Onion,Vegetables,Saffola,1000,ml,446,168,15.8,10.8,30.9,1.6,19,1012,45,75,B,Yes,Spinach,401,4,1784,No,No,Yes,No,No,4.1
+PRD-0142,Upma Mix,Breakfast,B organic,1000,kg,289,141,17.5,11.5,1.1,1.6,42,970,25,69,B,No,Upma Mix,260,4,1156,No,No,Yes,No,No,3.5
+PRD-0143,Rajma,Pulses,Amul,500,L,163,99,12.0,30.0,17.3,9.9,8,148,29,90,A,Yes,Masoor Dal,146,3,489,No,Yes,Yes,No,No,4.7
+PRD-0144,Kiwi,Fruits,Amul,250,kg,209,80,16.6,48.5,12.4,10.1,2,184,10,90,A+,Yes,Kiwi,188,2,418,Yes,Yes,Yes,Yes,Yes,3.3
+PRD-0145,Potato,Vegetables,MTR,1000,g,277,86,21.1,24.5,22.5,1.4,17,600,24,68,B,No,Spinach,249,4,1108,No,No,Yes,No,No,3.3
+PRD-0146,Masoor Dal,Pulses,B organic,100,kg,331,181,2.4,67.9,22.8,10.5,3,154,22,87,A,Yes,Masoor Dal,297,4,1324,Yes,Yes,Yes,No,No,3.9
+PRD-0147,Cookies,Snacks,MTR,100,g,219,496,11.1,6.9,33.8,0.3,41,906,50,53,C,No,Cookies,197,3,657,No,No,No,Yes,No,4.7
+PRD-0148,Coconut Water,Beverages,Britannia,250,g,150,314,14.0,11.8,8.5,0.1,3,151,51,97,A+,Yes,Green Tea,135,4,600,Yes,Yes,No,No,No,3.7
+PRD-0149,Rajma,Pulses,Britannia,500,kg,293,164,2.9,21.8,27.8,0.4,5,178,34,88,A,Yes,Masoor Dal,263,2,586,Yes,Yes,Yes,No,No,4.2
+PRD-0150,Upma Mix,Breakfast,Nestle,1000,kg,386,211,20.9,66.5,20.1,1.0,44,600,46,71,B,Yes,Upma Mix,347,3,1158,No,No,No,No,No,4.0
+PRD-0151,Toor Dal,Pulses,Aashirvaad,1000,g,122,271,17.9,21.6,18.0,1.3,4,60,21,85,A,Yes,Masoor Dal,109,6,732,Yes,Yes,No,Yes,No,3.7
+PRD-0152,Cashews,Dry Fruits,Aashirvaad,250,ml,900,296,7.1,30.3,16.6,0.1,19,486,7,78,B,Yes,Dates,810,1,900,No,No,No,No,No,4.0
+PRD-0153,Orange,Fruits,Tata Simply Better,100,g,171,276,1.1,5.5,7.7,0.4,3,65,38,88,A,Yes,Kiwi,153,3,513,Yes,Yes,No,Yes,No,4.1
+PRD-0154,Maggi,Instant Foods,Fortune,500,kg,373,398,14.8,7.1,23.7,0.1,28,1188,10,34,D,No,Frozen Pizza,335,5,1865,No,No,No,No,Yes,3.9
+PRD-0155,Cheese,Dairy,Tata Simply Better,100,ml,150,594,23.9,62.5,0.2,1.3,23,844,29,58,C,No,Butter,135,5,750,No,No,No,No,Yes,4.3
+PRD-0156,Potato,Vegetables,Fortune,500,L,353,200,14.2,68.0,14.2,0.6,29,884,40,67,B,No,Spinach,317,6,2118,No,No,No,Yes,No,4.4
+PRD-0157,Onion,Vegetables,MTR,250,kg,80,240,18.8,42.1,29.0,2.0,39,1170,1,69,B,No,Spinach,72,6,480,No,No,No,No,No,3.7
+PRD-0158,Kiwi,Fruits,Britannia,100,ml,242,88,21.3,53.5,15.1,8.1,8,32,72,92,A+,Yes,Kiwi,217,6,1452,No,Yes,Yes,No,No,4.0
+PRD-0159,Onion,Vegetables,Haldirams,500,g,185,374,1.7,32.5,18.5,1.0,34,759,27,70,B,Yes,Spinach,166,4,740,No,No,No,No,Yes,4.8
+PRD-0160,Mango,Fruits,Saffola,1000,ml,186,165,21.2,45.6,19.6,0.2,22,975,49,73,B,Yes,Kiwi,167,2,372,No,No,Yes,No,Yes,4.1
+PRD-0161,Nachos,Snacks,Saffola,250,ml,392,583,22.6,13.1,33.5,0.6,17,524,5,41,D,No,Cookies,352,3,1176,No,No,No,Yes,No,5.0
+PRD-0162,Potato Chips,Snacks,Aashirvaad,100,kg,97,514,21.1,29.9,29.0,1.4,24,1073,45,36,D,No,Cookies,87,5,485,No,No,No,Yes,Yes,4.7
+PRD-0163,Popcorn,Snacks,Amul,500,L,121,373,10.6,74.6,30.8,1.2,24,510,23,61,C,No,Cookies,108,7,847,No,No,No,Yes,Yes,3.9
+PRD-0164,Cornflakes,Breakfast,Amul,500,ml,193,496,13.8,65.9,4.7,1.6,38,516,4,58,C,No,Upma Mix,173,6,1158,No,No,No,Yes,Yes,4.8
+PRD-0165,Maggi,Instant Foods,B organic,250,L,176,397,7.9,19.2,26.7,0.8,43,981,74,28,D,No,Frozen Pizza,158,2,352,No,No,No,Yes,No,4.5
+PRD-0166,Muesli,Breakfast,Fortune,1000,kg,121,214,3.6,64.8,15.4,10.2,3,144,71,81,A,Yes,Upma Mix,108,3,363,Yes,Yes,No,No,No,4.0
+PRD-0167,Orange Juice,Beverages,Haldirams,250,L,378,520,8.2,30.1,28.2,0.6,14,965,55,63,C,No,Green Tea,340,6,2268,No,No,No,No,No,5.0
+PRD-0168,Potato,Vegetables,MTR,100,g,356,174,18.8,15.0,26.4,1.5,14,464,72,66,B,No,Spinach,320,6,2136,No,No,Yes,Yes,No,4.3
+PRD-0169,Almonds,Dry Fruits,Fortune,1000,kg,850,299,16.2,45.4,24.5,0.1,5,84,15,91,A+,Yes,Dates,765,6,5100,Yes,Yes,No,Yes,Yes,4.7
+PRD-0170,Ready Soup,Instant Foods,Britannia,250,kg,42,508,22.7,27.5,16.7,0.5,14,614,29,49,C,No,Frozen Pizza,37,7,294,No,No,No,Yes,No,3.8
+PRD-0171,Moong Dal,Pulses,Haldirams,250,L,60,222,16.0,10.0,23.9,2.9,6,41,27,93,A+,Yes,Masoor Dal,54,1,60,Yes,Yes,No,No,No,3.7
+PRD-0172,Cookies,Snacks,Amul,1000,ml,293,361,18.3,24.0,14.1,0.2,42,689,25,52,C,No,Cookies,263,2,586,No,No,No,Yes,No,4.8
+PRD-0173,Cashews,Dry Fruits,Nestle,100,kg,900,364,7.5,64.0,11.0,1.6,40,1067,14,79,B,Yes,Dates,810,1,900,No,No,No,Yes,No,3.9
+PRD-0174,Raisins,Dry Fruits,Tata Simply Better,1000,kg,350,225,21.3,52.3,5.0,0.5,34,617,12,72,B,Yes,Dates,315,5,1750,No,No,No,No,Yes,3.4
+PRD-0175,Potato Chips,Snacks,Saffola,250,g,50,560,9.6,72.0,17.6,0.9,30,1051,46,39,D,No,Cookies,45,4,200,No,No,No,No,No,4.6
+PRD-0176,Rajma,Pulses,Amul,1000,g,42,268,16.8,38.1,30.8,2.6,3,40,44,91,A,Yes,Masoor Dal,37,2,84,Yes,Yes,No,No,No,4.9
+PRD-0177,Nachos,Snacks,Britannia,250,ml,57,585,14.9,11.0,1.6,1.3,32,939,48,38,D,No,Cookies,51,6,342,No,No,No,No,No,3.7
+PRD-0178,Oats,Breakfast,Haldirams,500,g,131,376,18.7,28.1,31.7,3.2,3,151,28,96,A+,Yes,Upma Mix,117,2,262,Yes,Yes,No,No,No,4.1
+PRD-0179,Maggi,Instant Foods,Haldirams,1000,kg,148,365,14.8,10.3,13.5,0.7,28,503,36,29,D,No,Frozen Pizza,133,4,592,No,No,No,No,Yes,3.7
+PRD-0180,Banana,Fruits,MTR,500,kg,273,165,1.6,67.9,27.4,9.4,4,144,71,90,A,Yes,Kiwi,245,1,273,Yes,Yes,Yes,No,Yes,4.8
+PRD-0181,Masoor Dal,Pulses,Haldirams,1000,ml,255,244,24.8,21.7,18.6,7.8,6,181,74,84,A,Yes,Masoor Dal,229,4,1020,Yes,Yes,No,Yes,Yes,3.9
+PRD-0182,Puffed Rice,Rice,Fortune,500,g,391,65,20.5,49.5,13.6,1.3,36,793,64,72,B,Yes,Flaked Rice,351,1,391,No,No,Yes,No,No,3.7
+PRD-0183,Moong Dal,Pulses,Nestle,500,L,311,44,4.2,72.1,18.6,2.9,3,61,60,89,A+,Yes,Masoor Dal,279,1,311,Yes,Yes,Yes,Yes,No,4.3
+PRD-0184,Pasta,Instant Foods,Amul,500,kg,35,357,6.8,72.2,7.0,1.9,44,1120,47,58,C,No,Frozen Pizza,31,5,175,No,No,No,No,No,4.1
+PRD-0185,Cornflakes,Breakfast,Aashirvaad,1000,L,48,404,20.0,68.6,33.0,1.9,29,553,79,55,C,No,Upma Mix,43,7,336,No,No,No,Yes,No,3.5
+PRD-0186,Raisins,Dry Fruits,MTR,1000,ml,350,78,19.5,39.9,0.5,0.0,28,586,27,70,B,Yes,Dates,315,3,1050,No,No,Yes,No,No,3.6
+PRD-0187,Cashews,Dry Fruits,Fortune,1000,g,900,317,1.0,68.1,5.5,2.0,38,748,33,78,B,Yes,Dates,810,3,2700,No,No,No,Yes,Yes,4.6
+PRD-0188,Orange,Fruits,Tata Simply Better,500,kg,433,133,7.6,48.5,34.7,4.6,2,108,52,84,A,Yes,Kiwi,389,5,2165,Yes,Yes,Yes,No,No,3.6
+PRD-0189,Basmati Rice,Rice,Nestle,100,ml,145,305,24.0,15.4,23.8,0.4,22,440,67,73,B,Yes,Flaked Rice,130,7,1015,No,No,No,No,No,4.2
+PRD-0190,Cheese,Dairy,B organic,500,ml,150,458,22.4,34.4,27.3,1.0,18,702,14,53,C,No,Butter,135,3,450,No,No,No,No,Yes,3.7
+PRD-0191,Cheese,Dairy,Tata Simply Better,500,kg,150,417,20.5,63.5,11.7,1.4,26,820,23,59,C,No,Butter,135,3,450,No,No,No,No,No,4.1
+PRD-0192,Kiwi,Fruits,Nestle,100,g,145,108,11.0,41.6,2.0,11.7,4,71,6,95,A+,Yes,Kiwi,130,7,1015,Yes,Yes,Yes,No,Yes,4.0
+PRD-0193,Cheese,Dairy,Haldirams,250,ml,150,513,8.8,54.9,28.6,0.4,16,742,46,56,C,No,Butter,135,3,450,No,No,No,Yes,No,4.6
+PRD-0194,Upma Mix,Breakfast,Amul,500,ml,270,326,15.0,71.7,1.6,0.5,21,431,67,75,B,Yes,Upma Mix,243,3,810,No,No,No,Yes,No,3.4
+PRD-0195,Cornflakes,Breakfast,Britannia,250,L,220,400,5.3,11.9,28.1,0.2,28,888,38,54,C,No,Upma Mix,198,1,220,No,No,No,Yes,No,3.3
+PRD-0196,Masoor Dal,Pulses,Saffola,500,g,170,301,17.8,55.9,19.7,11.4,3,61,64,91,A,Yes,Masoor Dal,153,6,1020,Yes,Yes,No,No,No,4.1
+PRD-0197,Nachos,Snacks,Amul,100,kg,368,465,6.6,54.3,28.6,1.1,25,669,48,36,D,No,Cookies,331,3,1104,No,No,No,No,No,3.8
+PRD-0198,Frozen Pizza,Instant Foods,MTR,500,L,176,429,16.0,27.2,28.6,1.0,21,488,71,26,D,No,Frozen Pizza,158,4,704,No,No,No,No,No,4.2
+PRD-0199,Cola,Beverages,Tata Simply Better,100,L,239,557,7.9,26.5,12.4,1.2,19,523,4,13,D,No,Green Tea,215,4,956,No,No,No,Yes,No,3.3
+PRD-0200,Banana,Fruits,B organic,1000,g,48,236,16.4,52.0,22.2,2.4,1,56,18,92,A,Yes,Kiwi,43,6,288,Yes,Yes,No,Yes,No,5.0
+PRD-0201,Cashews,Dry Fruits,Tata Simply Better,250,ml,900,257,14.1,73.5,19.5,0.4,40,601,40,80,B,Yes,Dates,810,1,900,No,No,No,No,No,3.3
+PRD-0202,Paneer,Dairy,Britannia,250,ml,450,330,24.2,47.3,2.8,0.2,27,913,19,75,B,Yes,Butter,405,1,450,No,No,No,No,Yes,4.3
+PRD-0203,Popcorn,Snacks,Haldirams,100,g,443,383,17.1,45.8,18.4,0.5,33,533,1,62,C,No,Cookies,398,5,2215,No,No,No,Yes,No,3.4
+PRD-0204,Flaked Rice,Rice,Nestle,100,L,77,287,16.1,32.0,32.8,1.1,33,1009,0,74,B,Yes,Flaked Rice,69,5,385,No,No,No,No,No,4.3
+PRD-0205,Maggi,Instant Foods,Nestle,1000,kg,312,527,7.2,35.4,25.3,0.0,32,526,16,27,D,No,Frozen Pizza,280,6,1872,No,No,No,No,No,4.5
+PRD-0206,Almonds,Dry Fruits,Tata Simply Better,100,ml,850,150,7.5,22.3,2.3,5.5,3,56,66,94,A+,Yes,Dates,765,7,5950,Yes,Yes,Yes,No,No,4.3
+PRD-0207,Orange Juice,Beverages,Fortune,250,ml,67,368,18.8,56.7,18.3,0.1,24,903,72,59,C,No,Green Tea,60,7,469,No,No,No,No,No,3.8
+PRD-0208,Kiwi,Fruits,Haldirams,500,kg,367,380,17.9,34.9,15.5,7.8,1,198,36,96,A+,Yes,Kiwi,330,3,1101,Yes,Yes,No,Yes,No,4.1
+PRD-0209,White Rice,Rice,Tata Simply Better,500,kg,243,410,10.8,50.9,9.2,0.3,35,606,28,61,C,No,Flaked Rice,218,7,1701,No,No,No,No,Yes,4.4
+PRD-0210,Cola,Beverages,MTR,1000,L,112,545,11.6,43.7,9.0,1.5,16,528,51,14,D,No,Green Tea,100,3,336,No,No,No,Yes,No,3.6
+PRD-0211,Green Tea,Beverages,B organic,1000,g,139,216,8.6,68.2,2.8,9.9,9,67,38,98,A+,Yes,Green Tea,125,2,278,No,Yes,No,No,No,4.4
+PRD-0212,Mango,Fruits,Saffola,500,g,443,253,18.3,31.9,17.2,0.9,20,684,65,77,B,Yes,Kiwi,398,1,443,No,No,No,No,No,3.7
+PRD-0213,Maggi,Instant Foods,Haldirams,500,L,155,509,15.0,13.3,7.5,0.6,25,1033,38,26,D,No,Frozen Pizza,139,3,465,No,No,No,No,No,3.6
+PRD-0214,Walnuts,Dry Fruits,Fortune,250,L,1200,328,17.9,17.0,17.6,4.9,0,28,0,93,A,Yes,Dates,1080,7,8400,Yes,Yes,No,Yes,No,3.4
+PRD-0215,Kiwi,Fruits,Saffola,250,g,157,56,17.3,59.1,33.3,9.3,6,22,61,94,A+,Yes,Kiwi,141,2,314,Yes,Yes,Yes,Yes,Yes,4.1
+PRD-0216,Muesli,Breakfast,Tata Simply Better,100,g,339,112,22.0,19.2,4.5,3.4,7,65,70,88,A,Yes,Upma Mix,305,4,1356,Yes,Yes,Yes,No,Yes,4.7
+PRD-0217,Curd,Dairy,Fortune,1000,L,35,69,6.0,7.9,16.8,2.2,8,155,35,88,A,Yes,Butter,31,6,210,No,Yes,Yes,Yes,No,5.0
+PRD-0218,Potato,Vegetables,Fortune,500,ml,364,260,18.5,47.6,24.8,0.7,40,722,59,71,B,Yes,Spinach,327,4,1456,No,No,No,Yes,No,4.5
+PRD-0219,Tomato,Vegetables,Britannia,500,L,377,163,2.6,58.7,20.5,9.4,1,70,44,94,A+,Yes,Spinach,339,7,2639,Yes,Yes,Yes,No,No,4.6
+PRD-0220,Butter,Dairy,Nestle,500,L,115,378,10.4,16.1,9.1,1.2,18,491,20,40,D,No,Butter,103,4,460,No,No,No,Yes,No,4.2
+PRD-0221,Pasta,Instant Foods,Haldirams,1000,kg,45,406,5.5,10.4,24.4,0.8,13,1005,22,61,C,No,Frozen Pizza,40,3,135,No,No,No,Yes,No,3.7
+PRD-0222,Maggi,Instant Foods,Saffola,250,ml,195,571,6.2,46.7,9.3,1.3,12,1084,78,28,D,No,Frozen Pizza,175,3,585,No,No,No,Yes,No,5.0
+PRD-0223,Raisins,Dry Fruits,Britannia,100,g,350,243,7.2,7.4,30.8,0.5,44,939,4,74,B,Yes,Dates,315,4,1400,No,No,No,Yes,No,4.6
+PRD-0224,Toor Dal,Pulses,Amul,1000,kg,261,143,20.5,54.5,33.9,9.9,5,155,11,89,A,Yes,Masoor Dal,234,7,1827,Yes,Yes,Yes,No,No,4.7
+PRD-0225,Brown Rice,Rice,MTR,500,kg,380,292,21.4,33.4,0.6,1.0,0,44,34,86,A,Yes,Flaked Rice,342,7,2660,Yes,Yes,No,No,Yes,4.8
+PRD-0226,Mango,Fruits,Saffola,100,g,236,394,15.1,45.7,34.7,1.5,14,607,42,77,B,Yes,Kiwi,212,3,708,No,No,No,Yes,Yes,4.2
+PRD-0227,Curd,Dairy,Saffola,500,g,35,67,24.5,50.5,28.2,8.6,4,68,24,85,A,Yes,Butter,31,7,245,Yes,Yes,Yes,No,No,4.7
+PRD-0228,Orange Juice,Beverages,Nestle,500,kg,104,521,24.4,9.9,19.5,1.5,16,742,70,65,C,No,Green Tea,93,5,520,No,No,No,No,Yes,4.5
+PRD-0229,Pasta,Instant Foods,Tata Simply Better,500,kg,122,491,17.8,63.7,28.1,1.9,31,833,2,56,C,No,Frozen Pizza,109,6,732,No,No,No,Yes,No,4.8
+PRD-0230,Spinach,Vegetables,Britannia,1000,L,259,331,15.3,54.2,2.4,2.8,5,35,54,94,A+,Yes,Spinach,233,2,518,Yes,Yes,No,Yes,No,3.6
+PRD-0231,Walnuts,Dry Fruits,Fortune,1000,g,1200,127,22.5,48.6,34.1,5.6,8,172,19,89,A,Yes,Dates,1080,7,8400,No,Yes,Yes,No,No,3.9
+PRD-0232,Banana,Fruits,MTR,250,ml,40,110,23.6,10.2,15.4,6.4,9,43,36,86,A,Yes,Kiwi,36,2,80,No,Yes,Yes,Yes,No,4.0
+PRD-0233,Walnuts,Dry Fruits,Haldirams,500,L,1200,389,9.5,52.2,2.3,2.5,7,69,3,92,A,Yes,Dates,1080,5,6000,Yes,Yes,No,No,No,4.8
+PRD-0234,Cashews,Dry Fruits,Saffola,1000,ml,900,341,19.7,26.3,11.0,0.0,43,589,59,78,B,Yes,Dates,810,3,2700,No,No,No,No,Yes,4.0
+PRD-0235,White Rice,Rice,Nestle,1000,ml,135,533,17.0,59.4,30.2,0.6,20,1189,62,64,C,No,Flaked Rice,121,5,675,No,No,No,No,No,4.6
+PRD-0236,Raisins,Dry Fruits,Aashirvaad,500,L,350,372,9.7,65.2,14.3,0.7,27,600,67,74,B,Yes,Dates,315,2,700,No,No,No,No,No,4.8
+PRD-0237,Apple,Fruits,Haldirams,250,kg,419,116,10.7,72.9,32.6,8.9,8,197,58,95,A+,Yes,Kiwi,377,3,1257,No,Yes,Yes,No,No,3.5
+PRD-0238,Cheese,Dairy,Aashirvaad,1000,kg,150,595,14.7,15.0,13.2,1.6,27,805,2,53,C,No,Butter,135,5,750,No,No,No,Yes,No,4.5
+PRD-0239,Poha,Breakfast,MTR,500,kg,156,326,7.3,5.0,30.5,1.6,32,1161,19,80,B,Yes,Upma Mix,140,1,156,No,No,No,No,Yes,3.7
+PRD-0240,Kiwi,Fruits,B organic,250,L,437,367,6.0,21.7,31.8,5.6,1,118,27,88,A+,Yes,Kiwi,393,2,874,Yes,Yes,No,Yes,Yes,4.1
+PRD-0241,Tomato,Vegetables,Saffola,250,g,42,260,2.1,50.3,8.0,8.0,1,22,51,92,A+,Yes,Spinach,37,2,84,Yes,Yes,No,No,No,3.3
+PRD-0242,Potato Chips,Snacks,Fortune,500,ml,337,531,6.2,28.5,16.4,1.5,12,443,56,39,D,No,Cookies,303,1,337,No,No,No,No,No,4.5
+PRD-0243,Cashews,Dry Fruits,Tata Simply Better,1000,ml,900,142,17.3,44.6,32.5,0.8,42,672,49,74,B,Yes,Dates,810,3,2700,No,No,Yes,No,No,4.0
+PRD-0244,Almonds,Dry Fruits,Saffola,500,ml,850,178,17.0,70.3,9.4,7.3,7,58,18,90,A+,Yes,Dates,765,3,2550,Yes,Yes,Yes,No,Yes,4.3
+PRD-0245,Muesli,Breakfast,MTR,250,g,97,257,1.2,55.1,24.7,7.5,0,52,57,83,A,Yes,Upma Mix,87,6,582,Yes,Yes,No,No,Yes,3.8
+PRD-0246,Banana,Fruits,Aashirvaad,1000,kg,333,247,3.2,16.4,20.9,1.8,1,141,13,85,A,Yes,Kiwi,299,1,333,Yes,Yes,No,No,No,3.5
+PRD-0247,Cashews,Dry Fruits,Fortune,1000,g,900,399,3.8,70.9,27.5,0.9,21,610,52,80,B,Yes,Dates,810,2,1800,No,No,No,No,No,4.7
+PRD-0248,Carrot,Vegetables,Tata Simply Better,250,g,161,215,18.5,70.8,21.2,10.4,6,121,61,96,A+,Yes,Spinach,144,7,1127,Yes,Yes,No,No,Yes,4.4
+PRD-0249,Basmati Rice,Rice,Tata Simply Better,500,L,331,316,6.2,6.1,20.4,0.2,35,469,22,73,B,Yes,Flaked Rice,297,1,331,No,No,No,Yes,No,4.2
+PRD-0250,Potato Chips,Snacks,Saffola,500,g,232,541,3.8,73.6,7.6,0.1,16,636,1,38,D,No,Cookies,208,5,1160,No,No,No,Yes,Yes,4.4
+PRD-0251,Orange Juice,Beverages,B organic,500,ml,410,569,11.3,29.3,1.9,0.1,41,856,75,65,C,No,Green Tea,369,6,2460,No,No,No,No,Yes,5.0
+PRD-0252,Apple,Fruits,Tata Simply Better,250,ml,220,221,22.5,60.6,5.6,0.6,9,158,12,99,A+,Yes,Kiwi,198,2,440,No,Yes,No,No,No,4.1
+PRD-0253,Noodles,Instant Foods,Saffola,1000,kg,172,376,1.4,52.5,2.8,0.8,24,1152,33,38,D,No,Frozen Pizza,154,6,1032,No,No,No,No,No,3.9
+PRD-0254,Noodles,Instant Foods,B organic,1000,L,175,366,3.8,47.9,32.9,1.3,25,861,34,32,D,No,Frozen Pizza,157,4,700,No,No,No,No,No,3.9
+PRD-0255,Dates,Dry Fruits,MTR,100,ml,280,89,17.2,51.1,2.5,4.7,0,108,67,81,A,Yes,Dates,252,7,1960,Yes,Yes,Yes,No,Yes,4.8
+PRD-0256,Cookies,Snacks,Nestle,500,g,316,595,21.1,8.5,16.3,0.8,19,1191,56,47,C,No,Cookies,284,3,948,No,No,No,No,Yes,3.8
+PRD-0257,Spinach,Vegetables,B organic,100,ml,250,99,14.0,64.1,15.2,4.5,1,180,22,98,A+,Yes,Spinach,225,7,1750,Yes,Yes,Yes,No,No,3.6
+PRD-0258,White Rice,Rice,Tata Simply Better,1000,L,231,355,8.8,21.4,7.5,1.7,14,505,69,62,C,No,Flaked Rice,207,4,924,No,No,No,No,Yes,3.9
+PRD-0259,Cola,Beverages,Tata Simply Better,250,g,422,425,8.3,18.9,2.4,1.8,34,669,68,13,D,No,Green Tea,379,4,1688,No,No,No,No,No,4.0
+PRD-0260,Spinach,Vegetables,B organic,500,g,397,64,2.3,16.2,11.8,0.9,9,67,74,100,A+,Yes,Spinach,357,7,2779,No,Yes,Yes,No,No,5.0
+PRD-0261,Coconut Water,Beverages,Tata Simply Better,500,ml,361,337,21.6,56.2,33.1,9.4,1,63,46,92,A+,Yes,Green Tea,324,1,361,Yes,Yes,No,No,No,3.9
+PRD-0262,Nachos,Snacks,Tata Simply Better,500,g,292,460,8.6,23.2,3.2,0.2,23,540,35,43,D,No,Cookies,262,7,2044,No,No,No,No,No,4.8
+PRD-0263,Orange Juice,Beverages,MTR,500,ml,209,474,14.3,20.1,7.4,0.6,40,594,54,64,C,No,Green Tea,188,4,836,No,No,No,No,Yes,3.7
+PRD-0264,Nachos,Snacks,Fortune,500,ml,253,546,5.6,49.9,9.2,1.8,41,444,51,41,D,No,Cookies,227,2,506,No,No,No,No,Yes,3.4
+PRD-0265,Ready Soup,Instant Foods,Amul,100,L,177,381,16.8,42.5,3.0,0.1,15,449,43,56,C,No,Frozen Pizza,159,1,177,No,No,No,No,No,3.5
+PRD-0266,Energy Drink,Beverages,Fortune,500,g,188,534,19.4,35.4,15.7,1.2,32,588,16,20,D,No,Green Tea,169,3,564,No,No,No,No,No,3.2
+PRD-0267,Almonds,Dry Fruits,Amul,1000,kg,850,43,12.3,39.5,6.9,7.8,6,163,52,96,A+,Yes,Dates,765,5,4250,Yes,Yes,Yes,Yes,Yes,4.8
+PRD-0268,Paneer,Dairy,Fortune,1000,kg,450,210,17.2,46.6,21.1,1.4,22,892,59,81,B,Yes,Butter,405,2,900,No,No,No,No,No,3.5
+PRD-0269,Puffed Rice,Rice,Aashirvaad,100,L,254,81,17.8,12.9,34.9,0.4,27,636,65,73,B,Yes,Flaked Rice,228,5,1270,No,No,Yes,No,Yes,3.3
+PRD-0270,White Rice,Rice,Fortune,1000,L,205,388,5.2,25.7,23.3,1.9,13,720,28,59,C,No,Flaked Rice,184,4,820,No,No,No,Yes,No,3.5
+PRD-0271,Green Tea,Beverages,Aashirvaad,1000,ml,175,201,18.2,25.5,18.4,8.4,9,85,55,99,A+,Yes,Green Tea,157,6,1050,No,Yes,No,Yes,No,4.4
+PRD-0272,Onion,Vegetables,Saffola,1000,kg,394,226,15.2,6.1,25.5,0.6,16,851,13,74,B,Yes,Spinach,354,3,1182,No,No,No,No,Yes,4.7
+PRD-0273,Apple,Fruits,Britannia,1000,kg,73,300,8.2,67.4,0.6,3.9,3,96,53,96,A+,Yes,Kiwi,65,2,146,Yes,Yes,No,No,No,4.8
+PRD-0274,Popcorn,Snacks,Aashirvaad,250,g,230,419,24.7,20.8,13.7,1.0,36,1006,43,65,C,No,Cookies,207,5,1150,No,No,No,No,Yes,5.0
+PRD-0275,Walnuts,Dry Fruits,Fortune,100,kg,1200,55,8.8,26.4,14.2,8.1,2,29,69,90,A,Yes,Dates,1080,2,2400,Yes,Yes,Yes,No,No,3.9
+PRD-0276,Butter,Dairy,MTR,500,ml,115,369,24.9,11.5,27.3,1.3,20,1078,56,41,D,No,Butter,103,5,575,No,No,No,No,No,4.3
+PRD-0277,Noodles,Instant Foods,Nestle,1000,L,229,439,2.4,12.4,20.5,1.1,37,698,77,33,D,No,Frozen Pizza,206,2,458,No,No,No,No,Yes,4.9
+PRD-0278,Onion,Vegetables,Fortune,1000,L,419,269,15.0,56.1,12.8,1.3,39,976,60,70,B,Yes,Spinach,377,6,2514,No,No,No,Yes,No,4.6
+PRD-0279,Butter,Dairy,Nestle,100,g,115,402,21.0,26.2,33.8,1.3,35,1119,48,42,D,No,Butter,103,6,690,No,No,No,Yes,No,3.9
+PRD-0280,Masoor Dal,Pulses,Aashirvaad,100,kg,57,352,2.8,16.6,2.2,6.0,9,162,66,89,A,Yes,Masoor Dal,51,3,171,No,Yes,No,No,No,3.9
+PRD-0281,Almonds,Dry Fruits,Aashirvaad,1000,ml,850,145,2.5,62.0,32.9,7.8,4,73,40,92,A+,Yes,Dates,765,6,5100,Yes,Yes,Yes,No,Yes,4.1
+PRD-0282,Onion,Vegetables,Aashirvaad,250,L,190,275,14.3,46.7,30.5,1.2,15,1043,23,71,B,Yes,Spinach,171,1,190,No,No,No,Yes,No,3.3
+PRD-0283,Chana Dal,Pulses,Tata Simply Better,500,L,76,226,8.7,37.9,17.6,2.4,3,174,21,86,A,Yes,Masoor Dal,68,3,228,Yes,Yes,No,No,No,4.7
+PRD-0284,Potato,Vegetables,Haldirams,250,kg,284,292,8.8,32.6,21.2,1.6,12,782,18,70,B,Yes,Spinach,255,7,1988,No,No,No,No,No,4.9
+PRD-0285,Chana Dal,Pulses,Aashirvaad,100,L,258,157,20.5,24.6,4.7,5.3,6,146,51,84,A,Yes,Masoor Dal,232,4,1032,Yes,Yes,Yes,No,Yes,3.4
+PRD-0286,Cola,Beverages,Haldirams,500,L,265,514,5.8,23.5,17.7,0.1,44,763,65,12,D,No,Green Tea,238,6,1590,No,No,No,Yes,No,4.6
+PRD-0287,Masoor Dal,Pulses,Tata Simply Better,100,ml,280,206,5.4,9.2,21.2,9.2,2,128,58,89,A,Yes,Masoor Dal,252,7,1960,Yes,Yes,No,No,No,3.3
+PRD-0288,Curd,Dairy,Fortune,500,L,35,150,7.5,18.6,16.7,0.1,5,86,66,86,A,Yes,Butter,31,6,210,Yes,Yes,Yes,No,No,4.2
+PRD-0289,Rajma,Pulses,Aashirvaad,1000,g,356,366,16.5,8.2,33.1,10.1,5,178,55,89,A,Yes,Masoor Dal,320,7,2492,Yes,Yes,No,No,No,5.0
+PRD-0290,White Rice,Rice,Nestle,250,ml,406,520,10.2,43.8,2.8,0.0,17,826,56,61,C,No,Flaked Rice,365,7,2842,No,No,No,No,No,4.6
+PRD-0291,Rajma,Pulses,Haldirams,1000,ml,97,288,18.5,27.1,13.8,2.8,1,76,24,85,A,Yes,Masoor Dal,87,6,582,Yes,Yes,No,No,No,3.6
+PRD-0292,Flaked Rice,Rice,Nestle,500,kg,204,115,21.3,27.7,24.1,1.9,24,513,44,70,B,Yes,Flaked Rice,183,7,1428,No,No,Yes,No,No,3.9
+PRD-0293,Cola,Beverages,Tata Simply Better,500,L,105,569,20.3,65.6,2.2,1.4,39,1098,39,12,D,No,Green Tea,94,7,735,No,No,No,No,No,4.1
+PRD-0294,Ready Soup,Instant Foods,Haldirams,1000,g,202,421,24.8,19.6,12.5,1.3,33,484,42,50,C,No,Frozen Pizza,181,6,1212,No,No,No,Yes,No,4.9
+PRD-0295,Tomato,Vegetables,Fortune,500,L,342,386,7.1,38.1,1.6,8.4,1,97,8,90,A+,Yes,Spinach,307,7,2394,Yes,Yes,No,Yes,No,3.6
+PRD-0296,Dates,Dry Fruits,Tata Simply Better,1000,g,280,187,5.4,27.3,14.6,10.9,4,126,37,81,A,Yes,Dates,252,7,1960,Yes,Yes,Yes,No,No,3.4
+PRD-0297,Butter,Dairy,Tata Simply Better,1000,g,115,501,4.0,22.8,22.5,0.6,30,545,48,40,D,No,Butter,103,1,115,No,No,No,Yes,No,4.8
+PRD-0298,Spinach,Vegetables,Tata Simply Better,250,kg,436,64,5.0,17.7,27.7,4.6,5,82,44,96,A+,Yes,Spinach,392,3,1308,Yes,Yes,Yes,No,No,4.3
+PRD-0299,Orange Juice,Beverages,Nestle,500,kg,273,537,10.3,65.4,10.9,0.6,35,1155,15,66,C,No,Green Tea,245,2,546,No,No,No,No,No,4.5
+PRD-0300,Poha,Breakfast,Haldirams,100,ml,140,132,6.0,14.3,22.4,0.6,24,1171,8,73,B,Yes,Upma Mix,126,2,280,No,No,Yes,No,Yes,4.8
+PRD-0301,Flaked Rice,Rice,Britannia,100,L,405,307,13.3,52.6,32.6,1.2,21,907,63,72,B,Yes,Flaked Rice,364,5,2025,No,No,No,Yes,No,3.7
+PRD-0302,Butter,Dairy,MTR,1000,kg,115,438,4.1,52.0,25.6,1.2,42,833,69,44,D,No,Butter,103,7,805,No,No,No,No,Yes,3.6
+PRD-0303,Cookies,Snacks,Britannia,100,L,243,537,20.1,27.7,26.8,0.3,30,766,6,48,C,No,Cookies,218,3,729,No,No,No,No,No,4.8
+PRD-0304,Noodles,Instant Foods,Tata Simply Better,500,g,239,429,21.6,65.0,26.8,0.3,30,953,23,38,D,No,Frozen Pizza,215,4,956,No,No,No,No,No,3.8
+PRD-0305,Coconut Water,Beverages,Fortune,500,ml,360,154,1.1,36.2,3.0,8.2,1,37,58,98,A+,Yes,Green Tea,324,2,720,Yes,Yes,Yes,Yes,No,3.8
+PRD-0306,Coconut Water,Beverages,Fortune,250,g,186,239,2.3,55.2,16.7,10.2,7,44,43,91,A+,Yes,Green Tea,167,7,1302,Yes,Yes,No,No,No,4.4
+PRD-0307,Banana,Fruits,Saffola,1000,L,194,226,23.4,70.4,14.1,5.6,0,185,60,87,A,Yes,Kiwi,174,1,194,Yes,Yes,No,No,No,4.5
+PRD-0308,Orange Juice,Beverages,Amul,1000,kg,235,428,7.5,22.4,33.0,0.6,26,981,60,59,C,No,Green Tea,211,2,470,No,No,No,No,Yes,4.2
+PRD-0309,Banana,Fruits,Nestle,250,ml,378,121,24.6,22.5,2.7,8.0,5,168,55,92,A,Yes,Kiwi,340,2,756,Yes,Yes,Yes,No,No,3.9
+PRD-0310,Noodles,Instant Foods,B organic,250,L,301,471,13.3,27.5,20.9,2.0,28,841,68,35,D,No,Frozen Pizza,270,2,602,No,No,No,No,Yes,3.9
+PRD-0311,Cornflakes,Breakfast,Aashirvaad,250,kg,214,358,19.1,56.3,30.7,1.4,33,1125,0,58,C,No,Upma Mix,192,2,428,No,No,No,No,No,3.8
+PRD-0312,Mango,Fruits,Amul,250,L,257,109,1.9,32.4,28.1,0.7,27,998,42,79,B,Yes,Kiwi,231,4,1028,No,No,Yes,Yes,No,4.8
+PRD-0313,Cola,Beverages,Amul,250,kg,343,416,19.1,22.4,18.9,2.0,18,647,51,12,D,No,Green Tea,308,4,1372,No,No,No,Yes,Yes,4.2
+PRD-0314,Toor Dal,Pulses,Aashirvaad,1000,g,213,237,23.8,14.6,18.9,2.2,3,164,62,84,A,Yes,Masoor Dal,191,3,639,Yes,Yes,No,No,Yes,3.9
+PRD-0315,Noodles,Instant Foods,Amul,500,ml,155,592,8.2,27.4,5.8,1.6,12,942,21,34,D,No,Frozen Pizza,139,5,775,No,No,No,Yes,Yes,3.8
+PRD-0316,Onion,Vegetables,Aashirvaad,100,g,410,347,23.9,22.3,30.1,0.3,32,876,60,69,B,No,Spinach,369,1,410,No,No,No,No,Yes,3.4
+PRD-0317,Nachos,Snacks,B organic,1000,kg,406,372,22.1,71.7,26.4,0.9,18,1092,18,36,D,No,Cookies,365,3,1218,No,No,No,Yes,Yes,4.0
+PRD-0318,Maggi,Instant Foods,Amul,250,g,158,588,5.5,71.6,7.4,0.5,17,610,26,29,D,No,Frozen Pizza,142,6,948,No,No,No,No,Yes,3.5
+PRD-0319,Masoor Dal,Pulses,B organic,1000,ml,84,136,12.5,58.8,22.0,7.6,6,47,40,84,A,Yes,Masoor Dal,75,2,168,Yes,Yes,Yes,No,No,4.7
+PRD-0320,Onion,Vegetables,Aashirvaad,500,ml,134,100,4.6,46.8,28.5,0.8,25,579,73,74,B,Yes,Spinach,120,1,134,No,No,Yes,Yes,No,4.2
+PRD-0321,Almonds,Dry Fruits,Amul,500,L,850,226,13.4,33.9,7.1,4.9,1,195,62,90,A+,Yes,Dates,765,6,5100,Yes,Yes,No,No,No,4.5
+PRD-0322,Cornflakes,Breakfast,Nestle,250,L,395,494,12.6,13.6,10.8,1.9,35,628,49,61,C,No,Upma Mix,355,1,395,No,No,No,Yes,Yes,4.5
+PRD-0323,Oats,Breakfast,Amul,100,g,442,313,22.4,13.0,0.2,6.0,9,110,46,98,A+,Yes,Upma Mix,397,2,884,No,Yes,No,Yes,Yes,3.7
+PRD-0324,Muesli,Breakfast,Tata Simply Better,250,L,55,193,12.7,29.6,31.8,6.8,9,183,32,83,A,Yes,Upma Mix,49,1,55,No,Yes,Yes,No,No,4.5
+PRD-0325,Banana,Fruits,B organic,250,ml,229,395,14.1,7.9,26.1,5.4,4,127,24,86,A,Yes,Kiwi,206,4,916,Yes,Yes,No,No,No,4.0
+PRD-0326,Energy Drink,Beverages,Haldirams,250,ml,429,429,8.0,57.4,16.9,0.4,18,632,51,23,D,No,Green Tea,386,4,1716,No,No,No,No,No,4.3
+PRD-0327,Mango,Fruits,MTR,1000,ml,298,255,1.5,30.1,11.7,0.8,37,1060,47,71,B,Yes,Kiwi,268,6,1788,No,No,No,No,Yes,4.5
+PRD-0328,Cheese,Dairy,Fortune,250,L,150,449,16.6,9.8,31.4,0.2,25,1183,11,58,C,No,Butter,135,2,300,No,No,No,Yes,No,3.8
+PRD-0329,Walnuts,Dry Fruits,Saffola,1000,kg,1200,194,21.3,17.7,15.1,2.0,4,116,22,90,A,Yes,Dates,1080,4,4800,Yes,Yes,Yes,Yes,Yes,3.5
+PRD-0330,Maggi,Instant Foods,Britannia,250,L,357,470,18.7,26.4,9.4,1.4,22,821,37,30,D,No,Frozen Pizza,321,5,1785,No,No,No,No,Yes,3.3
+PRD-0331,White Rice,Rice,Haldirams,100,ml,252,350,10.1,48.2,33.9,1.5,23,915,1,58,C,No,Flaked Rice,226,3,756,No,No,No,No,No,3.5
+PRD-0332,Curd,Dairy,Britannia,250,kg,35,179,4.3,56.0,28.5,3.1,8,11,35,92,A,Yes,Butter,31,7,245,No,Yes,Yes,No,No,4.4
+PRD-0333,Pasta,Instant Foods,MTR,1000,kg,371,585,13.1,28.0,25.8,0.1,41,1078,43,60,C,No,Frozen Pizza,333,5,1855,No,No,No,No,No,3.3
+PRD-0334,Maggi,Instant Foods,Britannia,100,L,271,501,5.3,24.7,16.1,1.0,21,519,17,28,D,No,Frozen Pizza,243,6,1626,No,No,No,No,Yes,4.7
+PRD-0335,Brown Rice,Rice,Nestle,500,kg,209,71,1.9,8.7,29.2,1.4,9,35,63,92,A,Yes,Flaked Rice,188,2,418,No,Yes,Yes,No,No,3.7
+PRD-0336,Kiwi,Fruits,Britannia,1000,g,113,285,22.2,21.2,14.2,11.9,1,119,65,89,A+,Yes,Kiwi,101,3,339,Yes,Yes,No,Yes,No,4.3
+PRD-0337,Almonds,Dry Fruits,Fortune,250,kg,850,249,7.4,16.9,3.4,5.0,4,103,7,93,A+,Yes,Dates,765,2,1700,Yes,Yes,No,No,No,3.5
+PRD-0338,Frozen Pizza,Instant Foods,Amul,100,g,314,439,15.5,10.6,23.9,1.9,23,507,75,26,D,No,Frozen Pizza,282,3,942,No,No,No,No,No,4.6
+PRD-0339,Upma Mix,Breakfast,Britannia,500,kg,359,372,19.2,52.3,10.6,0.4,26,761,69,72,B,Yes,Upma Mix,323,4,1436,No,No,No,No,Yes,4.3
+PRD-0340,Upma Mix,Breakfast,MTR,1000,L,266,258,20.4,27.3,0.4,0.8,24,1062,8,72,B,Yes,Upma Mix,239,5,1330,No,No,No,No,No,3.9
+PRD-0341,Walnuts,Dry Fruits,Haldirams,250,kg,1200,265,23.5,24.3,11.7,8.4,6,115,71,89,A,Yes,Dates,1080,2,2400,Yes,Yes,No,Yes,No,3.3
+PRD-0342,Frozen Pizza,Instant Foods,Amul,1000,L,211,359,9.1,33.4,8.4,1.3,23,403,8,26,D,No,Frozen Pizza,189,3,633,No,No,No,Yes,Yes,4.9
+PRD-0343,Chana Dal,Pulses,Haldirams,1000,L,289,294,6.5,25.2,13.0,8.0,1,37,16,92,A,Yes,Masoor Dal,260,5,1445,Yes,Yes,No,No,Yes,4.2
+PRD-0344,Basmati Rice,Rice,Nestle,1000,kg,323,189,7.2,70.4,4.7,1.6,15,832,30,70,B,Yes,Flaked Rice,290,7,2261,No,No,Yes,Yes,No,4.1
+PRD-0345,Coconut Water,Beverages,MTR,500,ml,396,66,17.5,65.5,34.9,5.1,3,167,75,99,A+,Yes,Green Tea,356,5,1980,Yes,Yes,Yes,No,No,4.8
+PRD-0346,Flaked Rice,Rice,Saffola,500,g,236,195,12.3,65.1,10.7,0.4,27,564,61,72,B,Yes,Flaked Rice,212,7,1652,No,No,Yes,No,No,5.0
+PRD-0347,Coconut Water,Beverages,B organic,250,L,97,73,12.6,17.5,31.2,5.5,1,78,59,95,A+,Yes,Green Tea,87,3,291,Yes,Yes,Yes,Yes,No,3.4
+PRD-0348,Kiwi,Fruits,Nestle,250,kg,78,184,10.9,70.5,16.1,3.5,4,67,49,92,A+,Yes,Kiwi,70,1,78,Yes,Yes,Yes,No,No,4.8
+PRD-0349,Mango,Fruits,Britannia,250,kg,342,110,2.2,43.3,31.2,0.5,38,932,20,76,B,Yes,Kiwi,307,1,342,No,No,Yes,No,Yes,3.7
+PRD-0350,Apple,Fruits,Nestle,500,g,306,272,13.3,23.1,11.1,1.0,7,76,55,93,A+,Yes,Kiwi,275,3,918,Yes,Yes,No,Yes,No,3.8
+PRD-0351,Apple,Fruits,Aashirvaad,500,ml,351,250,24.1,42.6,0.6,3.1,7,144,62,91,A+,Yes,Kiwi,315,3,1053,Yes,Yes,No,Yes,No,3.6
+PRD-0352,Spinach,Vegetables,Britannia,100,L,280,120,24.5,64.7,17.5,7.2,6,45,72,99,A+,Yes,Spinach,252,7,1960,Yes,Yes,Yes,No,Yes,3.7
+PRD-0353,White Rice,Rice,Fortune,500,g,297,366,22.5,7.0,8.5,0.1,41,743,59,60,C,No,Flaked Rice,267,2,594,No,No,No,Yes,No,3.8
+PRD-0354,Potato Chips,Snacks,Aashirvaad,250,L,138,359,24.2,45.0,30.2,0.3,43,502,43,35,D,No,Cookies,124,1,138,No,No,No,No,No,4.4
+PRD-0355,Nachos,Snacks,Fortune,500,ml,422,550,6.9,29.4,31.4,1.9,19,654,24,41,D,No,Cookies,379,3,1266,No,No,No,Yes,Yes,3.5
+PRD-0356,Energy Drink,Beverages,Tata Simply Better,500,g,340,556,2.1,71.4,24.9,0.0,35,616,11,23,D,No,Green Tea,306,4,1360,No,No,No,No,No,4.1
+PRD-0357,White Rice,Rice,B organic,500,kg,356,390,1.2,39.4,34.5,0.6,42,651,33,61,C,No,Flaked Rice,320,6,2136,No,No,No,Yes,Yes,4.7
+PRD-0358,Onion,Vegetables,Tata Simply Better,500,g,243,113,14.1,13.8,10.2,0.5,14,908,5,70,B,Yes,Spinach,218,6,1458,No,No,Yes,Yes,No,3.2
+PRD-0359,Butter,Dairy,Fortune,1000,g,115,353,8.3,55.2,12.6,0.5,35,882,39,45,D,No,Butter,103,6,690,No,No,No,No,No,3.2
+PRD-0360,Maggi,Instant Foods,Nestle,100,L,261,448,6.4,17.3,30.3,0.9,28,1169,54,29,D,No,Frozen Pizza,234,1,261,No,No,No,Yes,No,5.0
+PRD-0361,Poha,Breakfast,Britannia,250,g,68,336,10.5,35.2,20.0,0.0,23,924,4,78,B,Yes,Upma Mix,61,5,340,No,No,No,No,No,3.5
+PRD-0362,Basmati Rice,Rice,B organic,100,ml,191,239,23.3,13.7,22.9,0.1,42,986,79,73,B,Yes,Flaked Rice,171,3,573,No,No,No,No,Yes,4.9
+PRD-0363,Frozen Pizza,Instant Foods,MTR,100,kg,120,419,16.5,63.4,20.2,1.3,13,613,21,30,D,No,Frozen Pizza,108,6,720,No,No,No,Yes,Yes,4.7
+PRD-0364,Frozen Pizza,Instant Foods,Haldirams,500,L,272,413,25.0,20.4,3.7,1.2,21,990,27,28,D,No,Frozen Pizza,244,7,1904,No,No,No,No,No,3.7
+PRD-0365,Poha,Breakfast,Haldirams,100,kg,260,187,6.3,36.1,31.5,0.3,35,588,68,76,B,Yes,Upma Mix,234,5,1300,No,No,Yes,Yes,No,4.7
+PRD-0366,Brown Rice,Rice,B organic,1000,ml,93,221,7.3,24.5,32.6,0.3,9,188,57,92,A,Yes,Flaked Rice,83,5,465,No,Yes,No,No,Yes,3.9
+PRD-0367,Pasta,Instant Foods,Fortune,500,kg,140,472,7.1,58.8,26.3,1.2,12,846,62,59,C,No,Frozen Pizza,126,2,280,No,No,No,No,No,4.5
+PRD-0368,Flaked Rice,Rice,Amul,1000,L,287,227,13.6,9.6,34.0,0.7,42,409,73,77,B,Yes,Flaked Rice,258,2,574,No,No,No,Yes,No,4.5
+PRD-0369,Puffed Rice,Rice,Saffola,500,L,290,310,18.2,73.1,34.4,1.0,27,656,65,73,B,Yes,Flaked Rice,261,6,1740,No,No,No,Yes,No,3.6
+PRD-0370,Maggi,Instant Foods,Saffola,1000,kg,293,466,16.1,6.7,25.3,1.0,18,885,45,33,D,No,Frozen Pizza,263,1,293,No,No,No,No,No,4.2
+PRD-0371,Basmati Rice,Rice,Nestle,1000,g,109,123,1.4,8.4,20.1,1.6,33,806,72,75,B,Yes,Flaked Rice,98,4,436,No,No,Yes,No,No,4.9
+PRD-0372,Milk,Dairy,B organic,250,L,66,260,7.8,53.6,10.8,9.1,4,51,26,88,A,Yes,Butter,59,7,462,Yes,Yes,No,Yes,No,3.5
+PRD-0373,Frozen Pizza,Instant Foods,Amul,250,ml,35,407,16.8,61.6,23.6,1.0,17,964,23,26,D,No,Frozen Pizza,31,5,175,No,No,No,No,No,3.8
+PRD-0374,Kiwi,Fruits,B organic,500,L,266,144,6.6,39.6,32.0,2.5,2,55,73,91,A+,Yes,Kiwi,239,6,1596,Yes,Yes,Yes,Yes,No,4.8
+PRD-0375,Orange,Fruits,Tata Simply Better,500,ml,236,288,8.4,36.4,14.3,11.8,1,20,40,86,A,Yes,Kiwi,212,7,1652,Yes,Yes,No,No,No,3.7
+PRD-0376,Cheese,Dairy,Amul,100,kg,150,375,5.0,72.8,15.9,1.9,44,575,27,57,C,No,Butter,135,1,150,No,No,No,No,No,3.3
+PRD-0377,Ready Soup,Instant Foods,Fortune,250,L,246,432,16.4,18.8,3.5,0.3,12,724,35,56,C,No,Frozen Pizza,221,2,492,No,No,No,No,Yes,3.4
+PRD-0378,Potato,Vegetables,Saffola,100,L,129,142,13.3,14.8,14.9,0.7,40,1001,1,70,B,Yes,Spinach,116,4,516,No,No,Yes,Yes,No,5.0
+PRD-0379,Paneer,Dairy,Saffola,250,L,450,41,11.8,39.2,7.7,0.2,30,522,4,80,B,Yes,Butter,405,2,900,No,No,Yes,Yes,No,4.9
+PRD-0380,Kiwi,Fruits,Nestle,100,g,446,139,4.9,29.5,11.1,9.5,1,18,78,96,A+,Yes,Kiwi,401,4,1784,Yes,Yes,Yes,No,No,3.5
+PRD-0381,Cola,Beverages,MTR,250,L,143,455,25.0,19.8,9.4,1.3,29,654,51,13,D,No,Green Tea,128,6,858,No,No,No,Yes,No,4.6
+PRD-0382,Frozen Pizza,Instant Foods,Amul,1000,g,263,475,20.6,31.5,3.2,0.7,14,941,61,32,D,No,Frozen Pizza,236,1,263,No,No,No,No,No,4.5
+PRD-0383,Energy Drink,Beverages,Aashirvaad,100,L,340,486,3.9,45.7,32.5,1.0,13,844,68,20,D,No,Green Tea,306,7,2380,No,No,No,No,No,4.5
+PRD-0384,Chana Dal,Pulses,B organic,500,g,315,294,1.8,49.4,30.1,4.1,5,127,59,88,A,Yes,Masoor Dal,283,7,2205,Yes,Yes,No,No,No,3.9
+PRD-0385,Onion,Vegetables,Britannia,1000,ml,383,185,16.4,24.4,15.8,0.7,32,499,29,74,B,Yes,Spinach,344,2,766,No,No,Yes,No,Yes,4.9
+PRD-0386,Potato Chips,Snacks,B organic,500,L,290,556,16.2,35.5,18.4,0.4,19,610,28,33,D,No,Cookies,261,3,870,No,No,No,No,No,4.0
+PRD-0387,Milk,Dairy,Haldirams,1000,g,66,65,20.9,34.1,9.1,10.4,7,142,32,87,A,Yes,Butter,59,7,462,Yes,Yes,Yes,No,Yes,4.5
+PRD-0388,Oats,Breakfast,Amul,100,ml,446,215,20.2,36.6,25.2,7.0,0,175,71,98,A+,Yes,Upma Mix,401,2,892,Yes,Yes,No,Yes,Yes,3.6
+PRD-0389,Basmati Rice,Rice,Britannia,250,g,169,317,16.0,36.3,27.3,0.4,34,854,78,76,B,Yes,Flaked Rice,152,3,507,No,No,No,No,No,4.9
+PRD-0390,Basmati Rice,Rice,Tata Simply Better,500,kg,259,159,11.3,26.5,33.7,1.9,17,1158,67,72,B,Yes,Flaked Rice,233,3,777,No,No,Yes,Yes,No,4.3
+PRD-0391,Carrot,Vegetables,Aashirvaad,1000,kg,159,212,17.4,19.8,8.4,3.4,7,108,59,98,A+,Yes,Spinach,143,5,795,Yes,Yes,No,No,No,3.9
+PRD-0392,Orange,Fruits,Fortune,1000,ml,181,361,24.5,50.5,26.0,0.4,5,40,52,82,A,Yes,Kiwi,162,7,1267,Yes,Yes,No,Yes,No,3.9
+PRD-0393,Green Tea,Beverages,Aashirvaad,500,L,350,322,1.9,10.6,23.6,8.3,9,132,2,100,A+,Yes,Green Tea,315,5,1750,No,Yes,No,Yes,No,3.6
+PRD-0394,Frozen Pizza,Instant Foods,Tata Simply Better,500,ml,114,418,10.6,73.8,18.8,1.0,38,1127,1,32,D,No,Frozen Pizza,102,3,342,No,No,No,Yes,Yes,3.3
+PRD-0395,Upma Mix,Breakfast,Aashirvaad,1000,ml,209,380,4.0,58.6,7.4,0.6,40,419,66,72,B,Yes,Upma Mix,188,5,1045,No,No,No,Yes,Yes,4.8
+PRD-0396,Moong Dal,Pulses,B organic,100,g,320,133,20.3,62.2,34.3,6.0,4,31,32,90,A+,Yes,Masoor Dal,288,4,1280,Yes,Yes,Yes,No,No,4.2
+PRD-0397,Carrot,Vegetables,Nestle,1000,ml,118,295,1.4,48.1,33.6,10.8,7,121,14,96,A+,Yes,Spinach,106,6,708,Yes,Yes,No,No,No,3.6
+PRD-0398,Chana Dal,Pulses,Saffola,1000,kg,334,302,11.3,16.3,24.5,9.1,3,99,13,91,A,Yes,Masoor Dal,300,2,668,Yes,Yes,No,No,Yes,3.5
+PRD-0399,Coconut Water,Beverages,Fortune,100,kg,215,132,9.2,61.4,11.9,0.7,3,167,17,91,A+,Yes,Green Tea,193,6,1290,Yes,Yes,Yes,No,No,4.5
+PRD-0400,Curd,Dairy,MTR,100,L,35,159,24.5,59.1,3.8,9.3,4,43,60,89,A,Yes,Butter,31,3,105,Yes,Yes,Yes,No,No,3.3
+PRD-0401,Paneer,Dairy,MTR,1000,g,450,51,5.4,39.8,9.7,1.5,32,1089,8,81,B,Yes,Butter,405,6,2700,No,No,Yes,Yes,Yes,4.0
+PRD-0402,Maggi,Instant Foods,Haldirams,100,ml,286,547,17.4,17.8,28.8,0.9,26,636,58,32,D,No,Frozen Pizza,257,5,1430,No,No,No,Yes,Yes,3.5
+PRD-0403,Raisins,Dry Fruits,MTR,250,ml,350,230,7.5,54.2,23.1,2.0,38,424,19,77,B,Yes,Dates,315,5,1750,No,No,No,Yes,No,3.6
+PRD-0404,Curd,Dairy,Saffola,100,kg,35,139,22.1,18.6,11.0,7.4,6,156,3,84,A,Yes,Butter,31,7,245,Yes,Yes,Yes,Yes,Yes,4.7
+PRD-0405,Curd,Dairy,Saffola,250,kg,35,162,3.3,6.9,14.2,11.9,7,166,10,91,A,Yes,Butter,31,2,70,Yes,Yes,Yes,No,No,3.3
+PRD-0406,Raisins,Dry Fruits,Fortune,1000,ml,350,60,12.8,69.6,0.7,1.5,21,570,68,76,B,Yes,Dates,315,1,350,No,No,Yes,No,No,3.9
+PRD-0407,Curd,Dairy,Amul,250,ml,35,185,1.2,66.8,20.1,4.0,0,90,14,88,A,Yes,Butter,31,5,175,Yes,Yes,Yes,No,Yes,3.4
+PRD-0408,Orange,Fruits,Britannia,250,ml,291,377,25.0,5.2,22.4,1.7,7,129,17,88,A,Yes,Kiwi,261,3,873,Yes,Yes,No,Yes,Yes,3.3
+PRD-0409,Green Tea,Beverages,Haldirams,1000,kg,424,273,9.1,33.2,1.9,6.0,2,125,52,96,A+,Yes,Green Tea,381,6,2544,Yes,Yes,No,No,No,4.6
+PRD-0410,Banana,Fruits,Saffola,250,kg,132,214,18.0,18.3,12.9,1.3,9,194,77,91,A,Yes,Kiwi,118,7,924,No,Yes,No,No,No,3.3
+PRD-0411,Rajma,Pulses,Fortune,1000,L,352,262,16.6,65.7,31.3,11.0,9,157,33,89,A,Yes,Masoor Dal,316,4,1408,No,Yes,No,No,No,4.6
+PRD-0412,Tomato,Vegetables,B organic,500,kg,401,147,9.1,6.3,14.1,6.6,8,156,27,94,A+,Yes,Spinach,360,6,2406,No,Yes,Yes,Yes,No,3.6
+PRD-0413,Brown Rice,Rice,Amul,1000,ml,288,144,21.7,28.9,31.5,11.3,1,185,1,89,A,Yes,Flaked Rice,259,5,1440,Yes,Yes,Yes,Yes,Yes,4.2
+PRD-0414,Carrot,Vegetables,Aashirvaad,1000,kg,229,285,20.8,44.4,26.7,8.6,0,120,32,96,A+,Yes,Spinach,206,5,1145,Yes,Yes,No,No,Yes,3.4
+PRD-0415,Almonds,Dry Fruits,Aashirvaad,1000,ml,850,126,22.2,29.5,3.0,8.7,2,190,45,91,A+,Yes,Dates,765,1,850,Yes,Yes,Yes,No,No,3.2
+PRD-0416,Milk,Dairy,Tata Simply Better,100,kg,66,258,12.6,56.0,11.1,4.1,7,43,76,86,A,Yes,Butter,59,6,396,Yes,Yes,No,No,No,3.3
+PRD-0417,Walnuts,Dry Fruits,Britannia,250,g,1200,104,23.8,33.6,16.4,0.6,3,66,48,93,A,Yes,Dates,1080,5,6000,Yes,Yes,Yes,Yes,No,3.7
+PRD-0418,Oats,Breakfast,Britannia,500,g,341,95,17.1,49.5,28.2,9.9,5,141,6,98,A+,Yes,Upma Mix,306,1,341,Yes,Yes,Yes,No,No,4.3
+PRD-0419,Energy Drink,Beverages,Nestle,100,ml,157,404,23.7,52.2,2.4,0.9,37,631,16,24,D,No,Green Tea,141,3,471,No,No,No,No,No,3.7
+PRD-0420,Almonds,Dry Fruits,Britannia,1000,L,850,179,17.3,41.8,25.2,7.0,4,32,53,93,A+,Yes,Dates,765,2,1700,Yes,Yes,Yes,Yes,No,3.3
+PRD-0421,Curd,Dairy,Britannia,100,L,35,158,19.0,53.5,34.7,3.3,1,95,26,90,A,Yes,Butter,31,5,175,Yes,Yes,Yes,No,No,4.7
+PRD-0422,Orange,Fruits,Britannia,1000,ml,49,247,10.9,25.9,26.2,2.5,2,129,59,82,A,Yes,Kiwi,44,1,49,Yes,Yes,No,Yes,No,3.6
+PRD-0423,Puffed Rice,Rice,MTR,500,ml,132,263,7.3,35.5,5.6,1.9,17,1033,7,74,B,Yes,Flaked Rice,118,2,264,No,No,No,Yes,No,3.5
+PRD-0424,White Rice,Rice,Nestle,250,kg,121,497,22.0,54.6,25.0,0.5,16,1190,19,62,C,No,Flaked Rice,108,6,726,No,No,No,No,No,4.2
+PRD-0425,Maggi,Instant Foods,Britannia,500,ml,63,548,15.8,33.4,1.5,0.7,34,957,43,31,D,No,Frozen Pizza,56,2,126,No,No,No,Yes,No,4.9
+PRD-0426,Cheese,Dairy,Tata Simply Better,1000,kg,150,457,16.8,62.7,22.7,1.9,38,842,61,52,C,No,Butter,135,5,750,No,No,No,Yes,No,4.3
+PRD-0427,Raisins,Dry Fruits,Fortune,1000,kg,350,362,24.3,12.9,9.5,1.0,29,580,42,74,B,Yes,Dates,315,3,1050,No,No,No,No,No,4.3
+PRD-0428,White Rice,Rice,Nestle,500,kg,193,386,13.6,72.4,21.3,2.0,35,710,23,58,C,No,Flaked Rice,173,5,965,No,No,No,No,Yes,4.7
+PRD-0429,Protein Bar,Snacks,Britannia,1000,g,170,122,21.3,60.9,17.8,2.8,9,176,12,90,A,Yes,Cookies,153,7,1190,No,Yes,Yes,Yes,Yes,4.2
+PRD-0430,Carrot,Vegetables,Saffola,1000,L,45,116,21.0,30.6,29.5,6.7,4,90,74,91,A+,Yes,Spinach,40,7,315,Yes,Yes,Yes,Yes,Yes,3.3
+PRD-0431,Cola,Beverages,MTR,250,ml,392,456,20.3,72.7,9.5,1.0,13,1186,24,16,D,No,Green Tea,352,5,1960,No,No,No,Yes,No,3.6
+PRD-0432,Puffed Rice,Rice,Fortune,250,g,362,379,18.1,30.6,1.9,1.5,12,451,25,66,B,No,Flaked Rice,325,5,1810,No,No,No,No,No,3.5
+PRD-0433,Green Tea,Beverages,Haldirams,500,kg,193,188,1.1,10.5,30.9,0.9,5,98,15,98,A+,Yes,Green Tea,173,6,1158,Yes,Yes,Yes,Yes,Yes,3.9
+PRD-0434,Walnuts,Dry Fruits,Aashirvaad,1000,ml,1200,392,17.1,33.7,16.5,0.6,1,88,76,93,A,Yes,Dates,1080,3,3600,Yes,Yes,No,Yes,No,3.7
+PRD-0435,Milk,Dairy,Tata Simply Better,100,g,66,51,23.7,19.9,18.3,5.7,0,49,73,83,A,Yes,Butter,59,7,462,Yes,Yes,Yes,No,No,4.9
+PRD-0436,Cola,Beverages,Amul,250,g,266,483,5.8,31.0,17.6,1.5,12,789,47,19,D,No,Green Tea,239,5,1330,No,No,No,No,No,4.6
+PRD-0437,Mango,Fruits,Amul,500,kg,233,306,10.9,14.7,23.3,1.0,23,569,57,74,B,Yes,Kiwi,209,6,1398,No,No,No,No,No,4.3
+PRD-0438,Chana Dal,Pulses,Britannia,500,kg,259,298,10.9,67.9,31.4,8.2,5,76,49,85,A,Yes,Masoor Dal,233,7,1813,Yes,Yes,No,No,Yes,4.0
+PRD-0439,Chana Dal,Pulses,Aashirvaad,250,ml,113,82,18.5,44.2,12.6,9.7,9,80,19,91,A,Yes,Masoor Dal,101,2,226,No,Yes,Yes,Yes,No,3.3
+PRD-0440,Ready Soup,Instant Foods,MTR,100,kg,158,475,2.5,14.2,30.1,1.3,44,1191,23,49,C,No,Frozen Pizza,142,6,948,No,No,No,Yes,Yes,3.7
+PRD-0441,Apple,Fruits,Haldirams,250,kg,192,68,8.1,52.7,7.4,9.6,4,90,13,93,A+,Yes,Kiwi,172,3,576,Yes,Yes,Yes,No,Yes,3.7
+PRD-0442,Basmati Rice,Rice,Britannia,500,kg,414,161,10.1,26.2,16.1,1.6,13,1069,72,72,B,Yes,Flaked Rice,372,5,2070,No,No,Yes,No,Yes,3.6
+PRD-0443,Potato Chips,Snacks,Fortune,1000,ml,179,553,6.8,37.8,20.7,1.8,20,1045,36,39,D,No,Cookies,161,2,358,No,No,No,No,No,4.6
+PRD-0444,Dates,Dry Fruits,Amul,500,g,280,325,11.0,15.9,23.3,8.5,3,197,76,81,A,Yes,Dates,252,2,560,Yes,Yes,No,No,Yes,4.9
+PRD-0445,Banana,Fruits,Haldirams,100,ml,230,74,17.3,10.2,34.7,4.9,8,134,21,86,A,Yes,Kiwi,207,4,920,No,Yes,Yes,No,No,3.5
+PRD-0446,Toor Dal,Pulses,Tata Simply Better,100,kg,419,201,15.4,9.5,34.0,6.5,8,69,57,90,A,Yes,Masoor Dal,377,7,2933,No,Yes,No,Yes,Yes,4.8
+PRD-0447,Puffed Rice,Rice,Fortune,1000,ml,57,247,18.7,36.7,34.6,0.1,33,1115,0,70,B,Yes,Flaked Rice,51,4,228,No,No,No,No,No,3.8
+PRD-0448,Nachos,Snacks,B organic,100,ml,134,473,8.3,32.9,11.2,0.9,44,753,27,42,D,No,Cookies,120,2,268,No,No,No,Yes,No,3.4
+PRD-0449,Banana,Fruits,Britannia,100,g,346,359,8.6,59.2,1.9,0.2,0,19,19,86,A,Yes,Kiwi,311,3,1038,Yes,Yes,No,Yes,No,3.3
+PRD-0450,Nachos,Snacks,Haldirams,250,kg,416,563,19.5,57.3,8.3,0.1,34,859,31,44,D,No,Cookies,374,1,416,No,No,No,No,No,3.9
+PRD-0451,Spinach,Vegetables,Fortune,500,ml,37,85,15.9,16.2,33.9,11.0,4,123,56,98,A+,Yes,Spinach,33,2,74,Yes,Yes,Yes,Yes,No,4.1
+PRD-0452,Paneer,Dairy,Haldirams,500,L,450,365,10.3,53.3,21.1,0.2,25,1107,74,80,B,Yes,Butter,405,4,1800,No,No,No,Yes,No,4.3
+PRD-0453,Orange Juice,Beverages,Haldirams,100,L,307,368,8.3,32.5,6.4,1.2,42,937,27,65,C,No,Green Tea,276,1,307,No,No,No,No,No,4.5
+PRD-0454,Pasta,Instant Foods,Aashirvaad,1000,ml,344,461,7.4,58.7,7.3,0.6,13,629,9,63,C,No,Frozen Pizza,309,1,344,No,No,No,No,No,3.4
+PRD-0455,Orange,Fruits,Amul,1000,kg,360,208,19.1,38.8,4.0,1.4,2,38,57,82,A,Yes,Kiwi,324,5,1800,Yes,Yes,No,No,No,3.6
+PRD-0456,Cheese,Dairy,Aashirvaad,100,L,150,352,20.2,64.6,17.0,0.8,14,635,36,58,C,No,Butter,135,7,1050,No,No,No,No,No,4.4
+PRD-0457,Protein Bar,Snacks,MTR,1000,L,387,133,14.2,50.9,13.4,3.4,4,189,47,89,A,Yes,Cookies,348,7,2709,Yes,Yes,Yes,Yes,No,3.4
+PRD-0458,Brown Rice,Rice,Saffola,250,ml,240,116,19.2,26.4,20.8,6.5,9,37,14,91,A,Yes,Flaked Rice,216,1,240,No,Yes,Yes,No,No,3.4
+PRD-0459,Tomato,Vegetables,Saffola,100,kg,273,164,10.0,40.6,11.2,11.6,3,25,75,93,A+,Yes,Spinach,245,3,819,Yes,Yes,Yes,Yes,Yes,3.4
+PRD-0460,Kiwi,Fruits,Britannia,100,ml,300,273,8.0,16.7,13.3,4.2,5,183,56,94,A+,Yes,Kiwi,270,4,1200,Yes,Yes,No,Yes,No,4.5
+PRD-0461,Moong Dal,Pulses,Nestle,1000,L,342,172,9.9,64.8,28.1,4.2,6,70,2,89,A+,Yes,Masoor Dal,307,7,2394,Yes,Yes,Yes,No,No,4.2
+PRD-0462,Chana Dal,Pulses,Tata Simply Better,100,kg,39,150,17.6,32.1,12.2,10.0,0,66,75,86,A,Yes,Masoor Dal,35,1,39,Yes,Yes,Yes,Yes,Yes,3.2
+PRD-0463,Chana Dal,Pulses,Nestle,100,L,52,290,2.8,67.6,8.1,8.9,4,153,17,85,A,Yes,Masoor Dal,46,7,364,Yes,Yes,No,Yes,No,4.3
+PRD-0464,Potato Chips,Snacks,MTR,250,g,449,477,11.9,65.4,32.1,2.0,21,755,62,38,D,No,Cookies,404,3,1347,No,No,No,Yes,No,3.9
+PRD-0465,Chana Dal,Pulses,Tata Simply Better,100,g,384,391,11.7,63.1,10.7,5.6,0,23,8,92,A,Yes,Masoor Dal,345,4,1536,Yes,Yes,No,No,Yes,4.6
+PRD-0466,Banana,Fruits,B organic,500,kg,429,385,10.3,22.0,32.4,6.3,7,120,71,92,A,Yes,Kiwi,386,7,3003,Yes,Yes,No,No,No,3.3
+PRD-0467,Flaked Rice,Rice,Tata Simply Better,500,kg,353,263,7.2,33.5,16.2,0.6,44,745,18,69,B,No,Flaked Rice,317,7,2471,No,No,No,No,No,4.3
+PRD-0468,White Rice,Rice,Haldirams,500,g,81,414,21.1,8.1,8.4,1.8,28,750,75,66,C,No,Flaked Rice,72,4,324,No,No,No,No,No,4.3
+PRD-0469,Nachos,Snacks,Saffola,500,kg,295,589,10.8,18.4,18.1,1.8,39,557,67,44,D,No,Cookies,265,2,590,No,No,No,No,Yes,4.5
+PRD-0470,Green Tea,Beverages,Aashirvaad,100,g,329,257,8.8,71.2,10.0,5.5,0,25,69,100,A+,Yes,Green Tea,296,6,1974,Yes,Yes,No,No,No,3.2
+PRD-0471,Masoor Dal,Pulses,Fortune,100,g,316,308,19.6,23.5,32.7,8.6,9,140,5,91,A,Yes,Masoor Dal,284,7,2212,No,Yes,No,No,Yes,3.8
+PRD-0472,Milk,Dairy,Aashirvaad,1000,g,66,231,14.9,56.1,14.4,7.6,2,116,50,85,A,Yes,Butter,59,6,396,Yes,Yes,No,Yes,Yes,4.7
+PRD-0473,Ready Soup,Instant Foods,Fortune,100,kg,282,392,9.6,12.1,33.7,1.3,23,450,28,55,C,No,Frozen Pizza,253,5,1410,No,No,No,No,No,4.6
+PRD-0474,Nachos,Snacks,Aashirvaad,250,L,352,351,14.4,39.0,17.7,0.4,36,832,2,44,D,No,Cookies,316,7,2464,No,No,No,No,Yes,4.6
+PRD-0475,Cashews,Dry Fruits,Tata Simply Better,100,kg,900,398,5.4,22.7,14.3,0.8,21,1013,22,74,B,Yes,Dates,810,7,6300,No,No,No,No,No,3.5
+PRD-0476,Popcorn,Snacks,Nestle,500,ml,342,593,11.5,42.9,33.9,0.5,18,446,72,65,C,No,Cookies,307,1,342,No,No,No,No,No,3.8
+PRD-0477,Kiwi,Fruits,Aashirvaad,500,ml,153,368,16.9,35.4,28.7,10.9,8,140,70,94,A+,Yes,Kiwi,137,2,306,No,Yes,No,No,No,4.7
+PRD-0478,Orange Juice,Beverages,Amul,250,ml,405,506,16.1,32.6,9.0,2.0,12,1146,20,58,C,No,Green Tea,364,4,1620,No,No,No,No,Yes,3.5
+PRD-0479,Frozen Pizza,Instant Foods,Haldirams,100,ml,85,563,24.1,49.9,0.9,0.9,38,1039,29,29,D,No,Frozen Pizza,76,7,595,No,No,No,No,No,5.0
+PRD-0480,Apple,Fruits,Britannia,100,kg,386,336,14.3,28.9,33.7,6.6,8,186,64,91,A+,Yes,Kiwi,347,7,2702,No,Yes,No,No,Yes,5.0
+PRD-0481,Orange,Fruits,Tata Simply Better,100,L,31,184,2.7,23.0,25.0,5.8,3,70,49,82,A,Yes,Kiwi,27,1,31,Yes,Yes,Yes,No,No,4.6
+PRD-0482,Energy Drink,Beverages,Amul,100,L,309,541,23.8,22.2,18.7,1.0,27,1005,60,23,D,No,Green Tea,278,5,1545,No,No,No,No,No,4.5
+PRD-0483,Brown Rice,Rice,B organic,1000,kg,266,220,5.7,72.2,5.1,6.1,4,89,53,92,A,Yes,Flaked Rice,239,3,798,Yes,Yes,No,Yes,No,4.1
+PRD-0484,Milk,Dairy,Saffola,250,g,66,156,1.3,16.4,34.5,0.9,2,36,18,86,A,Yes,Butter,59,6,396,Yes,Yes,Yes,Yes,No,3.6
+PRD-0485,Puffed Rice,Rice,Aashirvaad,100,g,385,361,21.5,41.0,3.8,1.4,28,1079,71,66,B,No,Flaked Rice,346,3,1155,No,No,No,No,No,3.4
+PRD-0486,Cola,Beverages,Britannia,250,ml,170,356,21.2,45.6,21.7,0.6,20,965,77,14,D,No,Green Tea,153,3,510,No,No,No,Yes,Yes,4.0
+PRD-0487,Muesli,Breakfast,Amul,100,kg,366,173,4.6,37.8,17.7,7.0,0,82,58,82,A,Yes,Upma Mix,329,3,1098,Yes,Yes,Yes,Yes,No,3.5
+PRD-0488,Banana,Fruits,MTR,250,kg,340,296,8.3,17.7,3.1,8.6,4,30,78,87,A,Yes,Kiwi,306,5,1700,Yes,Yes,No,Yes,No,3.9
+PRD-0489,Butter,Dairy,Haldirams,1000,kg,115,366,7.9,37.2,6.9,0.4,14,985,0,41,D,No,Butter,103,7,805,No,No,No,Yes,Yes,3.6
+PRD-0490,Mango,Fruits,Fortune,500,g,270,258,19.3,16.8,29.2,0.4,44,575,25,74,B,Yes,Kiwi,243,6,1620,No,No,No,No,Yes,4.3
+PRD-0491,Masoor Dal,Pulses,Tata Simply Better,250,ml,345,283,15.7,7.8,31.6,6.7,5,156,11,89,A,Yes,Masoor Dal,310,3,1035,Yes,Yes,No,Yes,No,3.8
+PRD-0492,Cornflakes,Breakfast,Nestle,500,g,234,487,11.7,29.0,4.9,0.9,35,473,12,54,C,No,Upma Mix,210,4,936,No,No,No,Yes,No,4.9
+PRD-0493,Butter,Dairy,Amul,1000,L,115,563,15.5,40.3,30.4,1.9,34,685,78,44,D,No,Butter,103,7,805,No,No,No,No,No,3.4
+PRD-0494,Oats,Breakfast,Tata Simply Better,1000,L,289,93,6.4,39.6,33.7,9.2,9,170,61,92,A+,Yes,Upma Mix,260,7,2023,No,Yes,Yes,No,No,4.5
+PRD-0495,Toor Dal,Pulses,Britannia,250,ml,247,145,19.9,55.6,9.7,10.2,2,25,1,84,A,Yes,Masoor Dal,222,1,247,Yes,Yes,Yes,No,Yes,3.4
+PRD-0496,Noodles,Instant Foods,Haldirams,100,g,445,516,8.0,66.2,27.0,0.8,31,471,69,31,D,No,Frozen Pizza,400,5,2225,No,No,No,No,Yes,4.9
+PRD-0497,Popcorn,Snacks,Saffola,100,g,336,503,5.5,40.6,18.5,1.6,19,1134,36,67,C,No,Cookies,302,2,672,No,No,No,No,No,4.1
+PRD-0498,Almonds,Dry Fruits,MTR,1000,L,850,381,4.6,57.2,0.4,2.0,1,28,42,95,A+,Yes,Dates,765,4,3400,Yes,Yes,No,Yes,No,4.4
+PRD-0499,Cornflakes,Breakfast,Amul,100,kg,312,521,15.6,36.1,33.0,0.1,19,607,79,62,C,No,Upma Mix,280,1,312,No,No,No,Yes,Yes,5.0
+PRD-0500,Walnuts,Dry Fruits,Fortune,250,ml,1200,364,14.9,68.3,11.3,8.0,6,177,15,93,A,Yes,Dates,1080,2,2400,Yes,Yes,No,Yes,No,4.7
